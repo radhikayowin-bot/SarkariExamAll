@@ -3,11 +3,10 @@ layout: page
 title: "Terms and Conditions"
 description: "The terms governing your use of the SarkariExamAll website."
 permalink: /terms/
+last_updated: "January 1, 2025"
 ---
 
-<div class="policy-content">
-
-<p class="policy-date">Last updated: January 1, 2025</p>
+*Last updated: January 1, 2025*
 
 Please read these Terms and Conditions carefully before using the SarkariExamAll website at www.sarkariexamall.com (the "Site"). By accessing or using the Site, you agree to be bound by these Terms.
 
@@ -70,5 +69,3 @@ These Terms are governed by the laws of the applicable jurisdiction, without reg
 ## Contact
 
 For questions about these Terms, contact us at contact@sarkariexamall.com.
-
-</div>

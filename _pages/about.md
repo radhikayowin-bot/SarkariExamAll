@@ -5,8 +5,6 @@ description: "Learn about SarkariExamAll, our mission, and how we publish job an
 permalink: /about/
 ---
 
-<div class="policy-content">
-
 ## Who We Are
 
 SarkariExamAll is an informational website focused on government jobs, exam notifications, admit cards, results, answer keys, admissions, scholarships, and other education-related updates in India.
@@ -39,5 +37,3 @@ SarkariExamAll is maintained by an editorial team that tracks notices from recru
 If you find an outdated link, incorrect date, or missing information, please contact us.
 
 [Get in touch &rarr;](/contact/)
-
-</div>

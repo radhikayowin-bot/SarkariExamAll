@@ -3,11 +3,10 @@ layout: page
 title: "Disclaimer"
 description: "Important disclaimers regarding the content published on SarkariExamAll."
 permalink: /disclaimer/
+last_updated: "January 1, 2025"
 ---
 
-<div class="policy-content">
-
-<p class="policy-date">Last updated: January 1, 2025</p>
+*Last updated: January 1, 2025*
 
 ## General Disclaimer
 
@@ -46,5 +45,3 @@ In no event shall SarkariExamAll be liable for any loss or damage arising from t
 ## Contact
 
 If you have questions about this Disclaimer, please contact us at contact@sarkariexamall.com.
-
-</div>

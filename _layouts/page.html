@@ -33,15 +33,21 @@ layout: default
   <div class="post-layout">
     <div class="post-main">
       <article class="page-content" itemscope itemtype="https://schema.org/WebPage">
+
         <header class="page-header">
           <h1 class="page-title" itemprop="name">{{ page.title }}</h1>
           {% if page.description %}
           <p class="page-subtitle">{{ page.description }}</p>
           {% endif %}
+          {% if page.last_updated %}
+          <p class="page-last-updated">Last updated: {{ page.last_updated }}</p>
+          {% endif %}
         </header>
-        <div class="page-body prose" itemprop="description">
+
+        <div class="page-body prose policy-content" itemprop="description">
           {{ content }}
         </div>
+
       </article>
     </div>
     <aside class="post-sidebar" role="complementary" aria-label="Sidebar">

@@ -3,12 +3,11 @@ layout: page
 title: "Privacy Policy"
 description: "How SarkariExamAll collects, uses, and protects your personal information."
 permalink: /privacy-policy/
+last_updated: "April 13, 2025"
 noindex: false
 ---
 
-<div class="policy-content">
-
-<p class="policy-date">Last updated: April 13, 2025</p>
+*Last updated: April 13, 2025*
 
 This Privacy Policy describes how SarkariExamAll ("we," "us," or "our") collects, uses, and shares information about you when you visit our website at www.sarkariexamall.com (the "Site").
 
@@ -92,5 +91,3 @@ We may update this Privacy Policy from time to time. We will notify you of signi
 If you have questions about this Privacy Policy, please contact us at:
 
 **Email:** contact@sarkariexamall.com
-
-</div>

@@ -3,11 +3,10 @@ layout: page
 title: "Cookie Policy"
 description: "How SarkariExamAll uses cookies and similar tracking technologies."
 permalink: /cookie-policy/
+last_updated: "April 13, 2025"
 ---
 
-<div class="policy-content">
-
-<p class="policy-date">Last updated: April 13, 2025</p>
+*Last updated: April 13, 2025*
 
 This Cookie Policy explains how SarkariExamAll ("we," "us," or "our") uses cookies and similar technologies when you visit our website at www.sarkariexamall.com.
 
@@ -26,6 +25,7 @@ These cookies are essential for the Site to function properly. They cannot be di
 We use analytics cookies to understand how visitors interact with our Site. This helps us improve our content and user experience.
 
 **Google Analytics 4**
+
 - Provider: Google LLC
 - Purpose: Measures website traffic, user behavior, and content performance
 - Data collected: Pages visited, session duration, approximate location, device type
@@ -34,6 +34,7 @@ We use analytics cookies to understand how visitors interact with our Site. This
 - Privacy policy: [Google Privacy Policy](https://policies.google.com/privacy)
 
 **Google Tag Manager**
+
 - Provider: Google LLC
 - Purpose: Manages and deploys tracking and marketing scripts
 - Note: GTM itself does not set cookies but may load scripts that do
@@ -44,6 +45,7 @@ We use analytics cookies to understand how visitors interact with our Site. This
 If we display advertisements, advertising networks may place cookies to deliver relevant ads, limit ad frequency, and measure campaign effectiveness.
 
 **Google AdSense**
+
 - Provider: Google LLC
 - Purpose: Displays personalized or contextual advertisements
 - Data collected: Browsing behavior, interests, device information
@@ -91,5 +93,3 @@ We may update this Cookie Policy from time to time. Changes will be reflected by
 ## Contact Us
 
 If you have questions about our use of cookies, please contact us at contact@sarkariexamall.com.
-
-</div>
