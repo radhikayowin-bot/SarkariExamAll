@@ -171,6 +171,28 @@ include:
 # Front Matter Defaults
 # ============================================================
 defaults:
+  # ----------------------------------------------------------
+  # Machine-readable / plain-text files at root
+  # Must come FIRST so it takes precedence over the catch-all
+  # page default below. Prevents layout injection into .txt,
+  # .xml, .json, and similar non-HTML outputs.
+  # ----------------------------------------------------------
+  - scope:
+      path: "*.txt"
+    values:
+      layout: null
+  - scope:
+      path: "*.xml"
+    values:
+      layout: null
+  - scope:
+      path: "*.json"
+    values:
+      layout: null
+
+  # ----------------------------------------------------------
+  # Posts
+  # ----------------------------------------------------------
   - scope:
       path: ""
       type: "posts"
@@ -183,6 +205,10 @@ defaults:
       toc: false
       comments: false
       share: true
+
+  # ----------------------------------------------------------
+  # Pages (catch-all)
+  # ----------------------------------------------------------
   - scope:
       path: ""
       type: "pages"

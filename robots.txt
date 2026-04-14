@@ -1,4 +1,6 @@
 ---
+layout: null
+permalink: /robots.txt
 ---
 User-agent: *
 Allow: /
@@ -7,4 +9,3 @@ Disallow: /search/
 Disallow: /search.json
 
 Sitemap: {{ site.url }}/sitemap.xml
-
