@@ -329,6 +329,10 @@
 .breadcrumbs {
   padding: $space-4 0 $space-3;
   margin-bottom: 0;
+
+  @media (max-width: $bp-sm) {
+    padding: $space-3 0;
+  }
 }
 
 .breadcrumb-list {
@@ -338,6 +342,7 @@
   gap: $space-2;
   font-size: $text-sm;
   color: $color-text-muted;
+  min-width: 0;
 
   li + li::before {
     content: "/";
@@ -347,15 +352,35 @@
 
   a {
     color: $color-text-muted;
+    overflow-wrap: anywhere;
 
     &:hover {
       color: $color-accent;
+    }
+  }
+
+  @media (max-width: $bp-sm) {
+    justify-content: center;
+    text-align: center;
+    gap: $space-1 $space-2;
+    font-size: $text-xs;
+
+    li {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    li + li::before {
+      margin-right: $space-1;
     }
   }
 }
 
 .breadcrumb-current {
   color: $color-text-light;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 // ============================================================
@@ -752,6 +777,11 @@
   padding-bottom: $space-8;
   border-bottom: 1px solid $color-border;
 
+  @media (max-width: $bp-lg) {
+    margin-bottom: $space-6;
+    padding-bottom: $space-6;
+  }
+
   &:last-child {
     border-bottom: none;
     margin-bottom: 0;
@@ -769,6 +799,14 @@
   padding-bottom: $space-3;
   border-bottom: 2px solid $color-accent;
   display: inline-block;
+
+  @media (max-width: $bp-lg) {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
+    text-align: center;
+  }
 }
 
 .sidebar-post-list {
@@ -786,6 +824,14 @@
 
     &:hover .sidebar-post-title {
       color: $color-accent;
+    }
+
+    @media (max-width: $bp-lg) {
+      align-items: center;
+    }
+
+    @media (max-width: $bp-sm) {
+      text-align: left;
     }
   }
 }
@@ -838,6 +884,10 @@
       color: $color-accent;
     }
   }
+
+  @media (max-width: $bp-lg) {
+    max-width: 100%;
+  }
 }
 
 .sidebar-category-count {
@@ -853,6 +903,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: $space-2;
+
+  @media (max-width: $bp-lg) {
+    justify-content: center;
+  }
 }
 
 // ============================================================

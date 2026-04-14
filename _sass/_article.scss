@@ -59,17 +59,34 @@
   padding: $space-4 0;
   border-top: 1px solid $color-border;
   border-bottom: 1px solid $color-border;
+
+  @media (max-width: $bp-sm) {
+    justify-content: center;
+    text-align: center;
+    gap: $space-3;
+    padding: $space-3 0;
+  }
 }
 
 .post-meta-date {
   display: flex;
   align-items: center;
   gap: $space-2;
+
+  @media (max-width: $bp-sm) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 .post-updated {
   color: $color-text-light;
   font-size: $text-xs;
+
+  @media (max-width: $bp-sm) {
+    display: block;
+    width: 100%;
+  }
 }
 
 .post-meta-reading {
