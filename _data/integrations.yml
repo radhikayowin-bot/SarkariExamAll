@@ -22,7 +22,7 @@
 # Measurement ID looks like: G-XXXXXXXXXX
 # ------------------------------------------------------------
 google_analytics:
-  enabled: false
+  enabled: true
   measurement_id: "G-K1WDP0DYYZ"
 
 # ------------------------------------------------------------
