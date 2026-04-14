@@ -44,6 +44,10 @@
   justify-content: space-between;
   height: 64px;
   gap: $space-4;
+
+  @media (max-width: $bp-sm) {
+    gap: $space-2;
+  }
 }
 
 .site-branding {
@@ -73,6 +77,8 @@
 
   @media (max-width: $bp-sm) {
     font-size: $text-lg;
+    white-space: normal;
+    line-height: 1.1;
   }
 }
 
@@ -102,6 +108,8 @@
     padding: $space-2 $space-6 $space-4;
     box-shadow: $shadow-md;
     z-index: 199;
+    max-height: calc(100vh - 64px);
+    overflow-y: auto;
 
     &.is-open {
       display: block;
@@ -166,6 +174,10 @@
   align-items: center;
   gap: $space-2;
   flex-shrink: 0;
+
+  @media (max-width: $bp-sm) {
+    gap: $space-1;
+  }
 }
 
 .header-search-btn {
@@ -178,6 +190,11 @@
   color: $color-text-muted;
   transition: color $transition-fast, background $transition-fast;
   flex-shrink: 0;
+
+  @media (max-width: $bp-sm) {
+    width: 40px;
+    height: 40px;
+  }
 
   &:hover {
     color: $color-accent;
@@ -202,6 +219,11 @@
   border-radius: $radius-sm;
   flex-shrink: 0;
   transition: background $transition-fast;
+
+  @media (max-width: $bp-sm) {
+    width: 40px;
+    height: 40px;
+  }
 
   @media (max-width: $bp-lg) {
     display: flex;

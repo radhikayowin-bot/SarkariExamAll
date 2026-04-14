@@ -205,6 +205,10 @@
   border-bottom: 1px solid $color-border;
   margin-bottom: $ad-gap-y;
 
+  @media (max-width: $bp-md) {
+    text-align: center;
+  }
+
   @media (max-width: $bp-sm) {
     padding: $space-8 0 $space-5;
     margin-bottom: $space-5;
@@ -224,6 +228,10 @@
   letter-spacing: 0.1em;
   color: $color-accent;
   margin-bottom: $space-2;
+
+  @media (max-width: $bp-md) {
+    margin-inline: auto;
+  }
 }
 
 .archive-title {
@@ -231,6 +239,8 @@
   font-weight: $font-bold;
   line-height: $leading-tight;
   margin-bottom: $space-3;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 
   @media (max-width: $bp-md) {
     font-size: $text-3xl;
@@ -246,6 +256,11 @@
   color: $color-text-muted;
   max-width: 600px;
   margin-bottom: $space-3;
+
+  @media (max-width: $bp-md) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   @media (max-width: $bp-sm) {
     font-size: $text-base;
@@ -993,6 +1008,7 @@
   align-items: center;
   justify-content: space-between;
   gap: $space-10;
+  min-width: 0;
 
   @media (max-width: $bp-md) {
     flex-direction: column;
@@ -1003,6 +1019,10 @@
 
 .newsletter-text {
   min-width: 0;
+
+  @media (max-width: $bp-md) {
+    width: 100%;
+  }
 }
 
 .newsletter-title {
@@ -1026,6 +1046,7 @@
   flex-shrink: 0;
   width: 100%;
   max-width: 420px;
+  min-width: 0;
 
   @media (max-width: $bp-md) {
     max-width: 100%;
@@ -1036,6 +1057,7 @@
   display: flex;
   gap: $space-2;
   margin-bottom: $space-3;
+  width: 100%;
 
   @media (max-width: $bp-sm) {
     flex-direction: column;
@@ -1045,6 +1067,8 @@
 .newsletter-input {
   flex: 1;
   min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
   padding: $space-3 $space-4;
   border: 1px solid rgba(255,255,255,0.2);
   border-radius: $radius-sm;
@@ -1074,6 +1098,11 @@
   white-space: nowrap;
   flex-shrink: 0;
 
+  @media (max-width: $bp-sm) {
+    width: 100%;
+    justify-content: center;
+  }
+
   &:hover {
     background: $color-accent-hover;
   }
@@ -1083,6 +1112,7 @@
   font-size: $text-xs;
   color: rgba(255,255,255,0.5);
   margin: 0;
+  line-height: $leading-relaxed;
 
   a {
     color: rgba(255,255,255,0.7);
@@ -1113,6 +1143,10 @@
 
   &:hover {
     color: rgba(255,255,255,0.85);
+  }
+
+  @media (max-width: $bp-md) {
+    justify-content: center;
   }
 }
 
