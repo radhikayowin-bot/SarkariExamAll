@@ -23,7 +23,7 @@
 # ------------------------------------------------------------
 google_analytics:
   enabled: false
-  measurement_id: "G-XXXXXXXXXX"
+  measurement_id: "G-K1WDP0DYYZ"
 
 # ------------------------------------------------------------
 # Google Tag Manager (GTM)
