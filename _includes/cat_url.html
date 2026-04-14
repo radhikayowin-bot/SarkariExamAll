@@ -6,4 +6,6 @@
   Always uses | slugify (mode: default, lowercase) to match
   the autopages permalink: "/category/:cat/" with cased: false.
 {% endcomment %}
-{% capture cat_url %}{{ '/category/' | append: include.cat | slugify | append: '/' | relative_url }}{% endcapture %}
+{% assign cat_slug = include.cat | slugify %}
+{% capture cat_path %}/category/{{ cat_slug }}/{% endcapture %}
+{% capture cat_url %}{{ cat_path | relative_url }}{% endcapture %}

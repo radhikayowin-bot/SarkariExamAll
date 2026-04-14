@@ -6,4 +6,6 @@
   Always uses | slugify (mode: default, lowercase) to match
   the autopages permalink: "/tag/:tag/" with cased: false.
 {% endcomment %}
-{% capture tag_url %}{{ '/tag/' | append: include.tag | slugify | append: '/' | relative_url }}{% endcapture %}
+{% assign tag_slug = include.tag | slugify %}
+{% capture tag_path %}/tag/{{ tag_slug }}/{% endcapture %}
+{% capture tag_url %}{{ tag_path | relative_url }}{% endcapture %}

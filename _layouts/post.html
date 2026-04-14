@@ -63,7 +63,7 @@ layout: default
       "@type": "ListItem",
       "position": 3,
       "name": {{ page.categories.first | capitalize | jsonify }},
-      "item": "{{ site.url }}/category/{{ page.categories.first | slugify }}/"
+      "item": "{{ site.url }}{% include cat_url.html cat=page.categories.first %}{{ cat_url }}"
     },
     {
       "@type": "ListItem",
