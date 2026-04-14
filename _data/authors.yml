@@ -1,59 +1,59 @@
 editorial:
   name: "editorial"
-  display_name: "The Pulse Editorial"
-  bio: "The editorial team at The Pulse covers a wide range of topics from technology and culture to lifestyle and business."
+  display_name: "SarkariExamAll Editorial"
+  bio: "The editorial team at SarkariExamAll covers government jobs, admit cards, results, answer keys, admissions, and scholarships."
   avatar: "https://placehold.co/200x200/1a1a2e/ffffff?text=EP"
   role: "Editorial Team"
-  email: "hello@thepulse.example.com"
-  website: "https://thepulse.example.com"
+  email: "contact@sarkariexamall.com"
+  website: "https://www.sarkariexamall.com"
   social:
-    twitter: "thepulse"
+    twitter: ""
     linkedin: ""
 
 sarah_chen:
   name: "sarah_chen"
   display_name: "Sarah Chen"
-  bio: "Sarah is a technology journalist with over a decade of experience covering AI, software, and digital culture. She believes technology should serve humanity, not the other way around."
+  bio: "Sarah reviews official notifications and writes simplified summaries for competitive exam and recruitment updates."
   avatar: "https://placehold.co/200x200/e63946/ffffff?text=SC"
-  role: "Technology Editor"
+  role: "Exam Updates Editor"
   email: ""
   website: ""
   social:
-    twitter: "sarahchen"
+    twitter: ""
     linkedin: "sarahchen"
 
 marcus_reed:
   name: "marcus_reed"
   display_name: "Marcus Reed"
-  bio: "Marcus writes about culture, media, and the intersection of art and society. Former arts critic turned digital storyteller."
+  bio: "Marcus tracks admit card, answer key, and board-related notices to help users find important updates quickly."
   avatar: "https://placehold.co/200x200/2d6a4f/ffffff?text=MR"
-  role: "Culture Writer"
+  role: "Notification Writer"
   email: ""
   website: ""
   social:
-    twitter: "marcusreed"
+    twitter: ""
     linkedin: ""
 
 priya_sharma:
   name: "priya_sharma"
   display_name: "Priya Sharma"
-  bio: "Priya covers business, entrepreneurship, and the future of work. She has interviewed hundreds of founders and executives across three continents."
+  bio: "Priya focuses on admissions, university forms, and major recruitment notices with clear date-wise summaries."
   avatar: "https://placehold.co/200x200/7b2d8b/ffffff?text=PS"
-  role: "Business Correspondent"
+  role: "Admission Editor"
   email: ""
   website: ""
   social:
-    twitter: "priyasharma"
+    twitter: ""
     linkedin: "priyasharma"
 
 james_okafor:
   name: "james_okafor"
   display_name: "James Okafor"
-  bio: "James is a science communicator passionate about making complex research accessible. He holds a PhD in environmental science and writes about climate, biology, and discovery."
+  bio: "James covers syllabus updates, scholarship notices, and exam pattern changes for students and job seekers."
   avatar: "https://placehold.co/200x200/1d4e89/ffffff?text=JO"
-  role: "Science Writer"
+  role: "Education Writer"
   email: ""
   website: ""
   social:
-    twitter: "jamesokafor"
+    twitter: ""
     linkedin: ""

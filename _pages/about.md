@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About The Pulse"
-description: "Learn about The Pulse — our mission, our team, and what drives us to publish."
+title: "About SarkariExamAll"
+description: "Learn about SarkariExamAll, our mission, and how we publish job and exam updates."
 permalink: /about/
 ---
 
@@ -9,33 +9,34 @@ permalink: /about/
 
 ## Who We Are
 
-The Pulse is a modern digital magazine dedicated to publishing thoughtful, well-researched content across technology, culture, lifestyle, business, and science. We believe in the power of ideas and the importance of clear, honest writing.
+SarkariExamAll is an informational website focused on government jobs, exam notifications, admit cards, results, answer keys, admissions, scholarships, and other education-related updates in India.
 
-Founded by a small team of journalists and editors, The Pulse was built on a simple premise: the internet deserves better content. Not clickbait. Not noise. Just well-crafted stories that inform, inspire, and occasionally challenge the way you think.
+Our goal is simple: make important Sarkari exam information easy to find, easy to read, and easy to follow.
 
 ## What We Cover
 
-We publish across five core areas:
+We regularly publish updates across key categories such as:
 
-- **Technology** — AI, software, digital culture, and the tools shaping our future
-- **Culture** — Art, media, society, and the ideas that define our time
-- **Lifestyle** — Health, travel, food, and the art of living well
-- **Business** — Entrepreneurship, finance, strategy, and the future of work
-- **Science** — Research, discovery, and the wonders of the natural world
+- **Latest Jobs** — New government recruitment notifications and vacancy details
+- **Admit Card** — Hall tickets, exam city slips, and exam date notices
+- **Results** — Result declarations, merit lists, and score card updates
+- **Answer Key** — Official answer keys and objection notice details
+- **Syllabus** — Exam pattern, syllabus, and selection process information
+- **Admission & Scholarships** — Education forms, counseling notices, and scholarship updates
 
-## Our Editorial Standards
+## Our Publishing Standards
 
-Every article published on The Pulse goes through an editorial review process. We fact-check claims, cite credible sources, and correct errors promptly. We do not publish sponsored content without clear disclosure. We do not accept payment for editorial coverage.
+We try to keep every post updated with official notice dates, eligibility summary, fee details, and important links whenever available. Even then, users should always verify final information on the official department or board website before applying.
 
-We are committed to accuracy, fairness, and transparency.
+We are committed to clarity, accuracy, and timely updates.
 
 ## Our Team
 
-The Pulse is written and edited by a distributed team of journalists, researchers, and subject-matter experts. You can learn more about individual contributors on their author pages.
+SarkariExamAll is maintained by an editorial team that tracks notices from recruitment boards, commissions, departments, universities, and public institutions.
 
 ## Contact Us
 
-Have a story tip, correction, or general inquiry? We'd love to hear from you.
+If you find an outdated link, incorrect date, or missing information, please contact us.
 
 [Get in touch &rarr;](/contact/)
 

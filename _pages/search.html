@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Search"
-description: "Search articles, topics, and authors on The Pulse."
+description: "Search jobs, results, admit cards, answer keys, and updates on SarkariExamAll."
 permalink: /search/
 sitemap: false
 ---
@@ -12,7 +12,7 @@ sitemap: false
     <!-- Page Header -->
     <header class="search-header">
       <h1 class="search-title">Search</h1>
-      <p class="search-subtitle">Search across all articles, topics, and authors.</p>
+      <p class="search-subtitle">Search across all jobs, results, admit cards, and exam updates.</p>
     </header>
 
     <!-- Search Form -->
@@ -22,15 +22,15 @@ sitemap: false
           <span class="search-input-icon" aria-hidden="true">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
           </span>
-          <label for="search-input" class="sr-only">Search articles, topics, authors</label>
+          <label for="search-input" class="sr-only">Search jobs, results, admit cards</label>
           <input
             type="search"
             id="search-input"
             class="search-input"
-            placeholder="Search articles, topics, authors&hellip;"
+            placeholder="Search jobs, results, admit cards&hellip;"
             autocomplete="off"
             spellcheck="false"
-            aria-label="Search articles, topics, authors"
+            aria-label="Search jobs, results, admit cards"
             aria-controls="search-results"
             aria-autocomplete="list"
           >
@@ -48,7 +48,7 @@ sitemap: false
     <!-- Idle prompt (shown before any search) -->
     <div class="search-idle" id="search-idle" aria-hidden="false">
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <p>Type to search articles, topics, and authors.</p>
+      <p>Type to search jobs, results, admit cards, and exam updates.</p>
       <div class="search-idle-tags">
         {% assign all_cats = site.posts | map: "categories" | join: "," | split: "," | uniq | sort %}
         {% for cat in all_cats limit:6 %}
@@ -66,7 +66,7 @@ sitemap: false
     <!-- No JS fallback -->
     <noscript>
       <div class="search-noscript">
-        <p>Search requires JavaScript. Browse articles by <a href="{{ '/blog/' | relative_url }}">category</a> instead.</p>
+        <p>Search requires JavaScript. Browse updates by <a href="{{ '/blog/' | relative_url }}">category</a> instead.</p>
       </div>
     </noscript>
 

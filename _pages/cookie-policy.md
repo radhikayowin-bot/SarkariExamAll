@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Cookie Policy"
-description: "How The Pulse uses cookies and similar tracking technologies."
+description: "How SarkariExamAll uses cookies and similar tracking technologies."
 permalink: /cookie-policy/
 ---
 
@@ -9,7 +9,7 @@ permalink: /cookie-policy/
 
 <p class="policy-date">Last updated: April 13, 2025</p>
 
-This Cookie Policy explains how The Pulse ("we," "us," or "our") uses cookies and similar technologies when you visit our website at thepulse.example.com.
+This Cookie Policy explains how SarkariExamAll ("we," "us," or "our") uses cookies and similar technologies when you visit our website at www.sarkariexamall.com.
 
 ## What Are Cookies?
 
@@ -90,6 +90,6 @@ We may update this Cookie Policy from time to time. Changes will be reflected by
 
 ## Contact Us
 
-If you have questions about our use of cookies, please contact us at hello@thepulse.example.com.
+If you have questions about our use of cookies, please contact us at contact@sarkariexamall.com.
 
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Terms and Conditions"
-description: "The terms governing your use of The Pulse website."
+description: "The terms governing your use of the SarkariExamAll website."
 permalink: /terms/
 ---
 
@@ -9,7 +9,7 @@ permalink: /terms/
 
 <p class="policy-date">Last updated: January 1, 2025</p>
 
-Please read these Terms and Conditions carefully before using The Pulse website at thepulse.example.com (the "Site"). By accessing or using the Site, you agree to be bound by these Terms.
+Please read these Terms and Conditions carefully before using the SarkariExamAll website at www.sarkariexamall.com (the "Site"). By accessing or using the Site, you agree to be bound by these Terms.
 
 ## Acceptance of Terms
 
@@ -37,7 +37,7 @@ You may not:
 
 ## Intellectual Property
 
-All content on this Site — including articles, images, graphics, and design — is owned by The Pulse or its content suppliers and is protected by copyright law. You may not reproduce, modify, or distribute our content without prior written consent.
+All content on this Site, including articles, images, graphics, and design, is owned by SarkariExamAll or its content suppliers and is protected by copyright law. You may not reproduce, modify, or distribute our content without prior written consent.
 
 ## User-Submitted Content
 
@@ -53,11 +53,11 @@ The Site is provided "as is" without warranties of any kind, express or implied.
 
 ## Limitation of Liability
 
-To the fullest extent permitted by law, The Pulse shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Site.
+To the fullest extent permitted by law, SarkariExamAll shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Site.
 
 ## Indemnification
 
-You agree to indemnify and hold harmless The Pulse and its team from any claims, damages, or expenses arising from your use of the Site or violation of these Terms.
+You agree to indemnify and hold harmless SarkariExamAll and its team from any claims, damages, or expenses arising from your use of the Site or violation of these Terms.
 
 ## Changes to Terms
 
@@ -69,6 +69,6 @@ These Terms are governed by the laws of the applicable jurisdiction, without reg
 
 ## Contact
 
-For questions about these Terms, contact us at hello@thepulse.example.com.
+For questions about these Terms, contact us at contact@sarkariexamall.com.
 
 </div>

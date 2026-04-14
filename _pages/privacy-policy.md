@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Privacy Policy"
-description: "How The Pulse collects, uses, and protects your personal information."
+description: "How SarkariExamAll collects, uses, and protects your personal information."
 permalink: /privacy-policy/
 noindex: false
 ---
@@ -10,7 +10,7 @@ noindex: false
 
 <p class="policy-date">Last updated: April 13, 2025</p>
 
-This Privacy Policy describes how The Pulse ("we," "us," or "our") collects, uses, and shares information about you when you visit our website at thepulse.example.com (the "Site").
+This Privacy Policy describes how SarkariExamAll ("we," "us," or "our") collects, uses, and shares information about you when you visit our website at www.sarkariexamall.com (the "Site").
 
 ## Information We Collect
 
@@ -77,7 +77,7 @@ Depending on your location, you may have the right to:
 - Opt out of personalized advertising via [Google Ad Settings](https://adssettings.google.com)
 - Lodge a complaint with a supervisory authority
 
-To exercise these rights, contact us at hello@thepulse.example.com.
+To exercise these rights, contact us at contact@sarkariexamall.com.
 
 ## Children's Privacy
 
@@ -91,6 +91,6 @@ We may update this Privacy Policy from time to time. We will notify you of signi
 
 If you have questions about this Privacy Policy, please contact us at:
 
-**Email:** hello@thepulse.example.com
+**Email:** contact@sarkariexamall.com
 
 </div>

@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "Contact"
-description: "Get in touch with The Pulse editorial team."
+description: "Contact SarkariExamAll for corrections, queries, and business communication."
 permalink: /contact/
 ---
 
 <div class="policy-content">
 
-We'd love to hear from you. Whether you have a story tip, a correction, a partnership inquiry, or just want to say hello — reach out using the form below.
+You can contact SarkariExamAll for correction requests, report updates, advertising inquiries, or general support.
 
 **Response time:** We aim to respond to all messages within 2–3 business days.
 
@@ -35,8 +35,8 @@ We'd love to hear from you. Whether you have a story tip, a correction, a partne
 
 <div class="policy-content" style="margin-top:2rem;">
 
-**Editorial inquiries:** hello@thepulse.example.com
+**Editorial inquiries:** contact@sarkariexamall.com
 
-**Press & partnerships:** press@thepulse.example.com
+**Business inquiries:** admin@sarkariexamall.com
 
 </div>

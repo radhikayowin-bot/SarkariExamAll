@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Home"
-description: "Ideas, insights and stories from The Pulse — covering technology, culture, lifestyle, and business."
+description: "Daily Sarkari job alerts, admit cards, results, answer keys, admissions, and syllabus updates from SarkariExamAll."
 pagination:
   enabled: false
 ---
@@ -17,7 +17,7 @@ pagination:
 <!-- ============================================================
      Hero Section
      ============================================================ -->
-<section class="hero-section" aria-label="Featured articles">
+<section class="hero-section" aria-label="Featured exam updates">
   <div class="container">
     <div class="hero-grid">
 
@@ -84,10 +84,10 @@ pagination:
     <div class="homepage-main">
 
       <!-- Latest Posts -->
-      <section class="latest-section" aria-label="Latest articles">
+      <section class="latest-section" aria-label="Latest updates">
         <div class="section-header">
-          <h2 class="section-title">Latest Articles</h2>
-          <a href="{{ '/blog/' | relative_url }}" class="section-more-link" aria-label="View all articles">View all &rarr;</a>
+          <h2 class="section-title">Latest Updates</h2>
+          <a href="{{ '/blog/' | relative_url }}" class="section-more-link" aria-label="View all updates">View all &rarr;</a>
         </div>
         <div class="posts-grid">
           {% for post in site.posts limit:6 %}
@@ -105,7 +105,7 @@ pagination:
 
     </div><!-- /.homepage-main -->
 
-    <!-- Sidebar -->
+      <!-- Sidebar -->
     <aside class="homepage-sidebar" role="complementary" aria-label="Sidebar">
       {% include sidebar.html %}
     </aside>
@@ -114,15 +114,15 @@ pagination:
 </div>
 
 <!-- ============================================================
-     Trending / Editor Picks
+     Trending / Important Updates
      ============================================================ -->
 {% assign trending_posts = site.posts | limit: 8 %}
 {% if trending_posts.size > 0 %}
-<section class="trending-section" aria-label="Trending articles">
+<section class="trending-section" aria-label="Trending updates">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">Trending Now</h2>
-      <a href="{{ '/blog/' | relative_url }}" class="section-more-link" aria-label="See all articles">See all &rarr;</a>
+      <h2 class="section-title">Important Right Now</h2>
+      <a href="{{ '/blog/' | relative_url }}" class="section-more-link" aria-label="See all updates">See all &rarr;</a>
     </div>
     <div class="trending-grid">
       {% for post in trending_posts limit:8 %}

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Disclaimer"
-description: "Important disclaimers regarding the content published on The Pulse."
+description: "Important disclaimers regarding the content published on SarkariExamAll."
 permalink: /disclaimer/
 ---
 
@@ -11,16 +11,13 @@ permalink: /disclaimer/
 
 ## General Disclaimer
 
-The information published on The Pulse (thepulse.example.com) is for general informational and educational purposes only. While we strive for accuracy and quality, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the information, products, services, or related graphics contained on the Site.
+The information published on SarkariExamAll (www.sarkariexamall.com) is for general informational and educational purposes only. While we try to keep all details correct and updated, we make no representations or warranties of any kind about completeness, reliability, suitability, or availability of the information published on this Site.
 
 ## Not Professional Advice
 
-Content on this Site does not constitute professional advice of any kind, including but not limited to:
+Content on this Site does not constitute legal, financial, career, or official government advice.
 
-- **Medical or health advice** — Always consult a qualified healthcare professional before making health decisions
-- **Legal advice** — Consult a licensed attorney for legal matters
-- **Financial advice** — Consult a qualified financial advisor before making investment decisions
-- **Technical advice** — Verify technical information with qualified professionals
+All job seekers and students should verify eligibility, fee, age limit, reservation rules, exam date, and application process from the official notification or authority website before taking action.
 
 ## Accuracy of Information
 
@@ -40,14 +37,14 @@ This Site may display advertisements, including those served by Google AdSense o
 
 ## Views and Opinions
 
-Articles and opinion pieces published on this Site represent the views of the individual authors and do not necessarily reflect the official position of The Pulse as an organization.
+Articles and updates published on this Site are independent informational summaries and do not necessarily reflect the official position of any government authority, recruitment board, or institution.
 
 ## Limitation of Liability
 
-In no event shall The Pulse be liable for any loss or damage, including without limitation, indirect or consequential loss or damage, arising from the use of this Site or the information contained herein.
+In no event shall SarkariExamAll be liable for any loss or damage arising from the use of this Site or reliance on the information contained herein.
 
 ## Contact
 
-If you have questions about this Disclaimer, please contact us at hello@thepulse.example.com.
+If you have questions about this Disclaimer, please contact us at contact@sarkariexamall.com.
 
 </div>

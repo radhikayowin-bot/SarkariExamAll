@@ -1,33 +1,33 @@
 # ============================================================
 # Site Settings
 # ============================================================
-title: "The Pulse"
-tagline: "Ideas, Insights & Stories"
-description: "A modern magazine and blog covering technology, culture, lifestyle, and ideas that matter."
-url: "https://thepulse.example.com"
+title: "SarkariExamAll"
+tagline: "Latest Sarkari Job Alerts, Admit Cards, Results & More"
+description: "SarkariExamAll publishes timely updates on government jobs, admit cards, results, answer keys, admissions, syllabi, and exam-related notices across India."
+url: "https://www.sarkariexamall.com"
 baseurl: ""
 lang: "en"
-timezone: "UTC"
+timezone: "Asia/Kolkata"
 
 # ============================================================
 # Author / Organization
 # ============================================================
 author:
-  name: "The Pulse Editorial"
-  email: "hello@thepulse.example.com"
+  name: "SarkariExamAll Editorial Team"
+  email: "contact@sarkariexamall.com"
 
 organization:
-  name: "The Pulse"
-  logo: "https://placehold.co/200x60/1a1a2e/ffffff?text=The+Pulse"
+  name: "SarkariExamAll"
+  logo: "https://placehold.co/200x60/0f172a/ffffff?text=SarkariExamAll"
 
 # ============================================================
 # Social
 # ============================================================
 social:
-  twitter: "thepulse"
-  facebook: "thepulse"
-  instagram: "thepulse"
-  linkedin: "thepulse"
+  twitter: ""
+  facebook: ""
+  instagram: ""
+  linkedin: ""
   youtube: ""
   rss: "/feed.xml"
 
@@ -109,14 +109,14 @@ jekyll-archives:
 # SEO Tag
 # ============================================================
 twitter:
-  username: thepulse
+  username: ""
   card: summary_large_image
 
 facebook:
   app_id: ""
   publisher: ""
 
-logo: "https://placehold.co/200x60/1a1a2e/ffffff?text=The+Pulse"
+logo: "https://placehold.co/200x60/0f172a/ffffff?text=SarkariExamAll"
 
 # ============================================================
 # Feed
@@ -177,8 +177,8 @@ defaults:
     values:
       layout: "post"
       author: "editorial"
-      image: "https://placehold.co/1200x675/e5e7eb/6b7280?text=The+Pulse"
-      image_alt: "Article featured image"
+      image: "https://placehold.co/1200x675/e5e7eb/334155?text=SarkariExamAll"
+      image_alt: "Sarkari exam update graphic"
       featured: false
       toc: false
       comments: false
@@ -211,17 +211,19 @@ reading_speed: 200
 # Categories with descriptions (used in templates)
 # ============================================================
 category_descriptions:
-  technology: "The latest in tech, software, AI, and digital innovation."
-  culture: "Art, society, media, and the ideas shaping our world."
-  lifestyle: "Health, travel, food, and living well."
-  business: "Entrepreneurship, finance, and the future of work."
-  science: "Discoveries, research, and the wonders of the natural world."
+  latest-jobs: "Fresh government job notifications, vacancy details, eligibility, age limit, and important dates."
+  admit-card: "Download admit cards and hall tickets for central, state, railway, police, and teaching exams."
+  results: "Check latest Sarkari exam results, merit lists, score cards, and selection updates."
+  answer-key: "Get official and provisional answer keys, objection dates, and response sheet updates."
+  syllabus: "Updated exam syllabus, paper pattern, selection process, and preparation overview."
+  admission: "Admission forms, entrance exam notices, counseling schedules, and course updates."
+  scholarships: "Scholarship schemes, eligibility, application deadlines, and student support updates."
 
 # ============================================================
 # Featured categories shown on homepage
 # ============================================================
 featured_categories:
-  - technology
-  - culture
-  - lifestyle
-  - business
+  - latest-jobs
+  - admit-card
+  - results
+  - answer-key

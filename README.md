@@ -1,4 +1,4 @@
-# The Pulse — Jekyll Magazine & Blog
+# SarkariExamAll — Jekyll Sarkari Update Site
 
 A production-ready Jekyll magazine/blog website. Fully automated, 100% responsive, SEO-optimized, accessibility-friendly, and ads-ready.
 
