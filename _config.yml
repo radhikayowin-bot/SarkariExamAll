@@ -18,16 +18,16 @@ author:
 
 organization:
   name: "SarkariExamAll"
-  logo: "https://placehold.co/200x60/0f172a/ffffff?text=SarkariExamAll"
+  logo: "/assets/images/logo.png"
 
 # ============================================================
 # Social
 # ============================================================
 social:
-  twitter: ""
-  facebook: ""
-  instagram: ""
-  linkedin: ""
+  twitter: "itisunique_x"
+  facebook: "itisuniqueofficial"
+  instagram: "itisuniqueofficial"
+  linkedin: "itisuniqueofficial"
   youtube: ""
   rss: "/feed.xml"
 
@@ -116,7 +116,7 @@ facebook:
   app_id: ""
   publisher: ""
 
-logo: "https://placehold.co/200x60/0f172a/ffffff?text=SarkariExamAll"
+logo: "/assets/images/logo.png"
 
 # ============================================================
 # Feed
