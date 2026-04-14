@@ -55,7 +55,7 @@ Before registering with Follow.it, your site must be publicly accessible.
 
 The placeholder action URL currently in the site is:
 ```
-https://api.follow.it/subscription-form/dGhlcHVsc2UuZXhhbXBsZS5jb20vZmVlZC54bWw=/8
+https://api.follow.it/subscription-form/VUxFcGdQRDNSRks5Yktxc2pJQWRVN0trRkxlS0hwR010LzZ3ZzZhd0tiUHR0OTNWZFpUQXQvaU5tUFpGOXAzcm14cE1HWVoxbDgvNXJpZC9jQ2hZWndtZlJXVnJydGlFWVJ2TjBZVUZ3Z0taTEVaM0QwOEdUak5ZK1hmLzdpTUR8MExtL0FWUzZBbGt6elRSTGpVRm5YRXYxK21hQXJGNWxuK1BIdlVwTjFQYz0=/8
 ```
 
 Replace it with your real URL in **three files**:
