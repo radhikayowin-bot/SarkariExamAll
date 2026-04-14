@@ -6,7 +6,7 @@ date: 2025-04-04
 categories: [admission]
 tags: [cuet-ug, admission-form, registration, university]
 author: editorial
-image: https://placehold.co/1200x675/7b2d8b/ffffff?text=CUET+UG+Admission
+image: /assets/images/social-share.jpg
 image_alt: "CUET UG admission update graphic"
 featured: true
 toc: false

@@ -6,7 +6,7 @@ date: 2025-03-22
 categories: [answer-key]
 tags: [bihar-board, answer-key, objection, exam-update]
 author: editorial
-image: https://placehold.co/1200x675/374151/ffffff?text=Answer+Key+2025
+image: /assets/images/social-share.jpg
 image_alt: "Answer key notification graphic"
 featured: false
 toc: false

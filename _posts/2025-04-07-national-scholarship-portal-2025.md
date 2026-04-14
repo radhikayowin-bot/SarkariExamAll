@@ -6,7 +6,7 @@ date: 2025-04-07
 categories: [scholarships]
 tags: [scholarship, nsp, student-scheme, application]
 author: editorial
-image: https://placehold.co/1200x675/2d6a4f/ffffff?text=Scholarship+2025
+image: /assets/images/social-share.jpg
 image_alt: "Scholarship application update graphic"
 featured: true
 toc: false

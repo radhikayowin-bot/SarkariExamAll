@@ -37,7 +37,7 @@ pagination:
           <div class="hero-secondary-image">
             <a href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
               <img
-                src="{{ post.image | default: 'https://placehold.co/120x120/e5e7eb/6b7280?text=...' }}"
+                src="{{ post.image | default: site.default_social_image | relative_url }}"
                 alt="{{ post.image_alt | default: post.title }}"
                 loading="lazy"
                 width="120"

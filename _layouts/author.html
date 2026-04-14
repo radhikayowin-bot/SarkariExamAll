@@ -61,7 +61,7 @@ layout: default
         <h1 class="archive-title">{{ author.display_name }}</h1>
         {% if author.role %}<p class="author-role">{{ author.role }}</p>{% endif %}
         {% if author.bio %}<p class="author-bio">{{ author.bio }}</p>{% endif %}
-        <p class="archive-count">{{ author_posts.size }} article{% if author_posts.size != 1 %}s{% endif %}</p>
+        <p class="archive-count">{{ author_posts.size }} update{% if author_posts.size != 1 %}s{% endif %}</p>
         {% if author.social %}
         <div class="author-social">
           {% if author.social.twitter %}

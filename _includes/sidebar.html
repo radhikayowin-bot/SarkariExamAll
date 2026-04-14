@@ -7,13 +7,13 @@
 
 <!-- Recent Posts Widget -->
 <div class="sidebar-widget">
-  <h3 class="sidebar-widget-title">Recent Articles</h3>
+  <h3 class="sidebar-widget-title">Recent Updates</h3>
   <ul class="sidebar-post-list">
     {% for post in site.posts limit:5 %}
     <li class="sidebar-post-item">
       <a href="{{ post.url | relative_url }}" class="sidebar-post-link">
         <img
-          src="{{ post.image | default: 'https://placehold.co/64x64/e5e7eb/6b7280?text=...' }}"
+          src="{{ post.image | default: site.default_social_image | relative_url }}"
           alt="{{ post.image_alt | default: post.title }}"
           loading="lazy"
           class="sidebar-post-thumb"
@@ -68,7 +68,7 @@
 {% if site.data.settings.show_newsletter %}
 <div class="sidebar-widget sidebar-subscribe">
   <h3 class="sidebar-widget-title">Get Updates</h3>
-  <p class="sidebar-subscribe-text">New articles delivered to your inbox.</p>
+  <p class="sidebar-subscribe-text">New updates delivered to your inbox.</p>
   <form
     class="sidebar-subscribe-form"
     action="https://api.follow.it/subscription-form/VUxFcGdQRDNSRks5Yktxc2pJQWRVN0trRkxlS0hwR010LzZ3ZzZhd0tiUHR0OTNWZFpUQXQvaU5tUFpGOXAzcm14cE1HWVoxbDgvNXJpZC9jQ2hZWndtZlJXVnJydGlFWVJ2TjBZVUZ3Z0taTEVaM0QwOEdUak5ZK1hmLzdpTUR8MExtL0FWUzZBbGt6elRSTGpVRm5YRXYxK21hQXJGNWxuK1BIdlVwTjFQYz0=/8"

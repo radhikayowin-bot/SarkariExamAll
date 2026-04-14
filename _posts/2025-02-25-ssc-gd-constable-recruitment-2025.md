@@ -6,7 +6,7 @@ date: 2025-02-25
 categories: [latest-jobs]
 tags: [ssc-gd, constable, recruitment, govt-jobs]
 author: editorial
-image: https://placehold.co/1200x675/1e3a8a/ffffff?text=SSC+GD+2025
+image: /assets/images/social-share.jpg
 image_alt: "SSC GD recruitment update graphic"
 featured: false
 toc: true

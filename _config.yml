@@ -193,7 +193,7 @@ defaults:
     values:
       layout: "post"
       author: "editorial"
-      image: "https://placehold.co/1200x675/e5e7eb/334155?text=SarkariExamAll"
+      image: "/assets/images/social-share.jpg"
       image_alt: "Sarkari exam update graphic"
       featured: false
       toc: false

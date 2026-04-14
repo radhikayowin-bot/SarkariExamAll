@@ -7,7 +7,7 @@ last_modified_at: 2025-04-11
 categories: [latest-jobs]
 tags: [upsc, civil-services, notification, prelims]
 author: editorial
-image: https://placehold.co/1200x675/0f172a/ffffff?text=UPSC+2025
+image: /assets/images/social-share.jpg
 image_alt: "UPSC Civil Services notification graphic"
 featured: true
 toc: true

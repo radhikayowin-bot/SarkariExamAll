@@ -15,7 +15,7 @@ layout: default
   "description": {{ page.description | default: page.excerpt | strip_html | truncatewords: 40 | jsonify }},
   "image": {
     "@type": "ImageObject",
-    "url": "{{ page.image | default: 'https://placehold.co/1200x675/e5e7eb/6b7280?text=The+Pulse' }}"
+    "url": "{{ page.image | default: site.default_social_image | absolute_url }}"
   },
   "datePublished": "{{ page.date | date_to_xmlschema }}",
   "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",

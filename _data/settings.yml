@@ -9,6 +9,6 @@ related_posts_count: 3
 show_toc: false
 show_breadcrumbs: true
 show_newsletter: true
-show_ad_placeholders: true
+show_ad_placeholders: false
 posts_per_page: 9
 excerpt_length: 160

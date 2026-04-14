@@ -6,7 +6,7 @@ date: 2025-03-08
 categories: [admit-card]
 tags: [up-police, admit-card, hall-ticket, exam-date]
 author: editorial
-image: https://placehold.co/1200x675/0f766e/ffffff?text=UP+Police+Admit+Card
+image: /assets/images/social-share.jpg
 image_alt: "UP Police admit card update graphic"
 featured: false
 toc: false

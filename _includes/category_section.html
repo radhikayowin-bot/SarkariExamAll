@@ -4,7 +4,7 @@
 
 {% if cat_posts.size > 0 %}
 {% include cat_url.html cat=cat %}
-<section class="category-section" aria-label="{{ cat | capitalize }} articles">
+<section class="category-section" aria-label="{{ cat | capitalize }} updates">
   <div class="section-header">
     <h2 class="section-title">
       <a href="{{ cat_url }}">{{ cat | capitalize }}</a>
@@ -12,7 +12,7 @@
     {% if cat_desc %}
     <p class="section-description">{{ cat_desc }}</p>
     {% endif %}
-    <a href="{{ cat_url }}" class="section-more-link" aria-label="View all {{ cat | capitalize }} articles">View all &rarr;</a>
+    <a href="{{ cat_url }}" class="section-more-link" aria-label="View all {{ cat | capitalize }} updates">View all &rarr;</a>
   </div>
   <div class="posts-grid">
     {% for post in cat_posts limit:3 %}

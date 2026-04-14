@@ -6,7 +6,7 @@ date: 2025-03-15
 categories: [results]
 tags: [railway-group-d, result, merit-list, cut-off]
 author: editorial
-image: https://placehold.co/1200x675/7c3aed/ffffff?text=Railway+Result+2025
+image: /assets/images/social-share.jpg
 image_alt: "Railway Group D result update graphic"
 featured: false
 toc: false

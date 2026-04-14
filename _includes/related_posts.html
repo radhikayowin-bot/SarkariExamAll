@@ -36,8 +36,8 @@
 {% if related_count > max_related %}{% assign related_count = max_related %}{% endif %}
 
 {% if related.size > 0 %}
-<section class="related-posts" aria-label="Related articles">
-  <h2 class="related-posts-title">Related Articles</h2>
+<section class="related-posts" aria-label="Related updates">
+  <h2 class="related-posts-title">Related Updates</h2>
   <div class="related-posts-grid">
     {% for post in related limit:max_related %}
     {% include post_card.html post=post %}
