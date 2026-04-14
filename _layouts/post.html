@@ -120,7 +120,7 @@ layout: default
           <p class="post-subtitle">{{ page.description }}</p>
           {% endif %}
 
-          <div class="post-meta">
+          <div class="post-meta" aria-label="Article metadata">
             {% if settings.show_author and author %}
             <span class="post-meta-author">
               {% if author.avatar %}
@@ -130,6 +130,7 @@ layout: default
             </span>
             {% endif %}
 
+            <span class="post-meta-details">
             {% if settings.show_date %}
             <span class="post-meta-date">
               <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -146,6 +147,7 @@ layout: default
               {% include reading_time.html content=content %}
             </span>
             {% endif %}
+            </span>
           </div>
         </header>
 

@@ -63,6 +63,7 @@
   transition: box-shadow $transition-base, transform $transition-base;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 
   &:hover {
     box-shadow: $shadow-md;
@@ -97,6 +98,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  min-width: 0;
 }
 
 .post-card-categories {
@@ -108,6 +110,8 @@
   font-weight: $font-bold;
   line-height: $leading-snug;
   margin-bottom: $space-3;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 
   a {
     color: $color-text;
@@ -128,6 +132,7 @@
   line-height: $leading-relaxed;
   margin-bottom: $space-4;
   flex: 1;
+  overflow-wrap: anywhere;
 }
 
 .post-card-footer {
@@ -143,6 +148,7 @@
   flex-wrap: wrap;
   font-size: $text-xs;
   color: $color-text-muted;
+  min-width: 0;
 
   a {
     color: $color-text-muted;
@@ -1445,16 +1451,20 @@
   height: 32px;
   border-radius: $radius-full;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
 .post-meta-author {
   display: flex;
   align-items: center;
   gap: $space-2;
+  min-width: 0;
+  max-width: 100%;
 
   a {
     font-weight: $font-medium;
     color: $color-text;
+    overflow-wrap: anywhere;
 
     &:hover {
       color: $color-accent;

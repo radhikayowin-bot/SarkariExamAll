@@ -28,9 +28,7 @@
   // Prevent any child from overflowing the column
   overflow-wrap: anywhere;
   word-break: break-word;
-  // Establish a new block-formatting context so floated images
-  // don't escape and margins don't collapse outward
-  overflow: hidden;
+  min-width: 0;
 
   @media (max-width: $bp-md) {
     font-size: $text-base;
@@ -140,6 +138,7 @@
   p {
     margin-top: 0;
     margin-bottom: $space-6;
+    overflow-wrap: break-word;
 
     &:last-child { margin-bottom: 0; }
   }
@@ -400,6 +399,7 @@
 
   figure {
     margin: $space-8 0;
+    max-width: 100%;
 
     img {
       margin: 0 auto;
@@ -512,9 +512,6 @@
   // TABLES
   // ==========================================================
 
-  // Wrap in a scrollable div to prevent overflow on mobile.
-  // Since we can't add a wrapper in Markdown, we use display:block
-  // on the table itself with overflow-x:auto.
   table {
     width: 100%;
     border-collapse: collapse;
@@ -522,11 +519,11 @@
     font-family: $font-sans;
     font-size: $text-sm;
     line-height: $leading-normal;
-    // Scrollable on mobile
-    display: block;
+    display: table;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     max-width: 100%;
+    table-layout: auto;
     // Subtle shadow to hint scrollability
     box-shadow: $shadow-sm;
     border-radius: $radius-md;
@@ -543,7 +540,8 @@
       padding: $space-3 $space-4;
       text-align: left;
       border-bottom: 2px solid $color-border;
-      white-space: nowrap;
+      white-space: normal;
+      overflow-wrap: anywhere;
     }
 
     td {
@@ -553,7 +551,8 @@
       vertical-align: top;
       // Allow text to wrap in data cells
       white-space: normal;
-      min-width: 100px;
+      min-width: 0;
+      overflow-wrap: anywhere;
     }
 
     tr:last-child td {
@@ -565,7 +564,12 @@
     }
 
     @media (max-width: $bp-sm) {
-      th, td { padding: $space-2 $space-3; }
+      display: block;
+
+      th, td {
+        padding: $space-2 $space-3;
+        min-width: 140px;
+      }
     }
   }
 
