@@ -1,19 +1,19 @@
 {
-  "name": "The Pulse",
-  "short_name": "The Pulse",
-  "description": "Ideas, Insights & Stories",
+  "name": "SarkariExamAll",
+  "short_name": "SarkariExamAll",
+  "description": "Latest Sarkari job alerts, admit cards, results, and exam updates.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1a1a2e",
   "icons": [
     {
-      "src": "/assets/images/icon-192.png",
+      "src": "/assets/images/icon/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/images/icon-512.png",
+      "src": "/assets/images/icon/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
