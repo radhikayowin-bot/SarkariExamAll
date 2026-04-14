@@ -48,7 +48,7 @@ google_tag_manager:
 #                   manual ad units placed in templates only
 # ------------------------------------------------------------
 google_adsense:
-  enabled: false
+  enabled: true
   publisher_id: "ca-pub-2749932241825231"
   auto_ads: false
 
