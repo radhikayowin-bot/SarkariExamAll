@@ -110,6 +110,7 @@ twitter:
   card: summary_large_image
 
 logo: "/assets/images/logo.png"
+default_social_image: "/assets/images/social-share.jpg"
 
 # ============================================================
 # Feed
