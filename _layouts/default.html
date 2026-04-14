@@ -5,14 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  {% seo %}
-
-  <!-- Canonical URL -->
-  {% if page.canonical_url %}
-  <link rel="canonical" href="{{ page.canonical_url }}">
-  {% else %}
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title | escape }}">
+  <meta property="og:locale" content="{{ site.lang | default: 'en' }}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
+  {% if site.social.twitter %}
+  <meta name="twitter:site" content="@{{ site.social.twitter }}">
   {% endif %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
 
   {% if page.noindex %}
   <meta name="robots" content="noindex, nofollow">

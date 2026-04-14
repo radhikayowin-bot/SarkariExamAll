@@ -12,9 +12,7 @@ timezone: "Asia/Kolkata"
 # ============================================================
 # Author / Organization
 # ============================================================
-author:
-  name: "SarkariExamAll Editorial Team"
-  email: "contact@sarkariexamall.com"
+email: "contact@sarkariexamall.com"
 
 organization:
   name: "SarkariExamAll"
@@ -109,12 +107,8 @@ jekyll-archives:
 # SEO Tag
 # ============================================================
 twitter:
-  username: ""
+  username: "itisunique_x"
   card: summary_large_image
-
-facebook:
-  app_id: ""
-  publisher: ""
 
 logo: "/assets/images/logo.png"
 
