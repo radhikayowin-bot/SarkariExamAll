@@ -1,0 +1,67 @@
+---
+layout: default
+title: "Authors"
+description: "Browse all SarkariExamAll authors and editorial contributors."
+permalink: /author/
+---
+
+<div class="container archive-layout">
+  {% assign author_count = site.data.authors | size %}
+  {% if site.data.settings.show_breadcrumbs %}
+  {% include breadcrumbs.html %}
+  {% endif %}
+
+  <header class="archive-header">
+    <span class="archive-label">Authors</span>
+    <h1 class="archive-title">All Authors</h1>
+    <p class="archive-description">Meet the writers and editors behind SarkariExamAll updates.</p>
+    <p class="archive-count">{{ author_count }} author{% if author_count != 1 %}s{% endif %}</p>
+  </header>
+
+  <section class="authors-grid" aria-label="All authors">
+    {% for pair in site.data.authors %}
+    {% assign author_key = pair[0] %}
+    {% assign author = pair[1] %}
+    {% assign author_posts = site.posts | where: "author", author_key %}
+    <article class="author-card">
+      {% if author.avatar %}
+      <img
+        src="{{ author.avatar | relative_url }}"
+        alt="{{ author.display_name }}"
+        class="author-card-avatar"
+        loading="lazy"
+        width="96"
+        height="96"
+      >
+      {% endif %}
+      <div class="author-card-body">
+        <h2 class="author-card-name">
+          <a href="{{ '/author/' | append: author.name | append: '/' | relative_url }}">{{ author.display_name }}</a>
+        </h2>
+        {% if author.role %}<p class="author-card-role">{{ author.role }}</p>{% endif %}
+        {% if author.bio %}<p class="author-card-bio">{{ author.bio }}</p>{% endif %}
+        <p class="author-card-count">{{ author_posts.size }} update{% if author_posts.size != 1 %}s{% endif %}</p>
+        {% if author.social or author.website %}
+        <div class="author-card-social">
+          {% if author.social.twitter %}
+          <a href="https://twitter.com/{{ author.social.twitter }}" rel="noopener noreferrer" target="_blank" class="social-link" aria-label="{{ author.display_name }} on Twitter">Twitter</a>
+          {% endif %}
+          {% if author.social.linkedin %}
+          <a href="https://linkedin.com/in/{{ author.social.linkedin }}" rel="noopener noreferrer" target="_blank" class="social-link" aria-label="{{ author.display_name }} on LinkedIn">LinkedIn</a>
+          {% endif %}
+          {% if author.website %}
+          <a href="{{ author.website }}" rel="noopener noreferrer" target="_blank" class="social-link" aria-label="{{ author.display_name }} website">Website</a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+</div>
+
+{% if site.data.settings.show_newsletter %}
+{% include newsletter.html %}
+{% else %}
+<div class="footer-spacer" aria-hidden="true"></div>
+{% endif %}

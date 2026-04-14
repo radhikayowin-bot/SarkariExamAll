@@ -37,6 +37,9 @@
     {% elsif page.layout == 'blog' %}
       <li class="breadcrumb-item breadcrumb-current" aria-current="page">Blog</li>
 
+    {% elsif page.url == '/author/' %}
+      <li class="breadcrumb-item breadcrumb-current" aria-current="page">Authors</li>
+
     {% else %}
       <li class="breadcrumb-item breadcrumb-current" aria-current="page">{{ page.title }}</li>
     {% endif %}
