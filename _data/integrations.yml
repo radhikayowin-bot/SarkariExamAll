@@ -35,8 +35,8 @@ google_analytics:
 # google_tag_manager.enabled: true to use GTM-only mode.
 # ------------------------------------------------------------
 google_tag_manager:
-  enabled: false
-  container_id: "GTM-XXXXXXX"
+  enabled: true
+  container_id: "GTM-MHDTVW8L"
 
 # ------------------------------------------------------------
 # Google AdSense
