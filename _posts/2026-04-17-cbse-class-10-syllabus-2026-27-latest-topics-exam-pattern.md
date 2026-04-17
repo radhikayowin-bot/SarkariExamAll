@@ -6,7 +6,7 @@ date: 2026-04-17
 categories: [syllabus]
 tags: [cbse-class-10-syllabus-2026-27, cbse-exam-pattern, class-10-preparation]
 author: editorial
-image: https://img.etimg.com/thumb/msid-130281589,width-300,height-225,imgsize-872724,resizemode-75/cbse-class-12-result-2026.jpg
+image: [https://img.etimg.com/thumb/msid-130281589,width-300,height-225,imgsize-872724,resizemode-75/cbse-class-12-result-2026.jpg](https://i.postimg.cc/vHtkKd7Y/Chat-GPT-Image-Apr-17-2026-03-33-05-PM.png)
 image_alt: "CBSE Class 10 Syllabus 2026-27 guide"
 featured: false
 toc: true
