@@ -3,7 +3,7 @@ layout: post
 title: "NEET 2026 Syllabus & Exam Pattern (Latest Update)"
 description: "NEET 2026 syllabus and exam pattern explained. Check detailed Physics, Chemistry, Biology topics, marking scheme, and expert strategy to score 650+ in NEET UG."
 date: 2026-04-17
-categories: [exam]
+categories: [syllabus]
 tags: [neet-2026-syllabus, neet-exam-pattern, neet-preparation-guide]
 author: editorial
 image: https://i.postimg.cc/9F3KQYtS/Chat-GPT-Image-Apr-17-2026-04-19-22-PM.png
