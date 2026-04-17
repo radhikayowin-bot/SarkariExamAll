@@ -6,7 +6,7 @@ date: 2026-04-17
 categories: [admit-card]
 tags: [ca-final-admit-card-2026, icai-admit-card, ca-final-2026]
 author: editorial
-image: https://i.postimg.cc/vHtkKd7Y/Chat-GPT-Image-Apr-17-2026-03-33-05-PM.png
+image: https://i.postimg.cc/dVv4pqG5/Chat-GPT-Image-Apr-17-2026-05-12-20-PM.png
 image_alt: "CA Final Admit Card May 2026 hall ticket download"
 featured: false
 toc: true
