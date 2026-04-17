@@ -6,7 +6,7 @@ date: 2026-04-14
 categories: [results]
 tags: [cbse-result-2026, class-10, class-12, board-results]
 author: editorial
-image: https://img.etimg.com/thumb/msid-130281589,width-300,height-225,imgsize-872724,resizemode-75/cbse-class-12-result-2026.jpg
+image:[ https://img.etimg.com/thumb/msid-130281589,width-300,height-225,imgsize-872724,resizemode-75/cbse-class-12-result-2026.jpg](https://i.postimg.cc/BvJJLgqX/Chat-GPT-Image-Apr-17-2026-02-46-27-PM.png)
 image_alt: "CBSE Class 10 and 12 Result 2026 update"
 featured: false
 toc: true
