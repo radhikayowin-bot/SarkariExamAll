@@ -5,4 +5,5 @@
 # Format: <ad system domain>, <publisher ID>, <relationship>, <certification authority ID>
 #
 # Google AdSense
-google.com, ca-pub-2749932241825231, DIRECT, f08c47fec0942fa0
+google.com, pub-2749932241825231, DIRECT, f08c47fec0942fa0
+google.com, pub-4994341766136391, DIRECT, f08c47fec0942fa0
