@@ -214,7 +214,15 @@
 
     .post-card-meta {
       justify-content: flex-start;
+      align-items: center;
+      gap: $space-3;
+      flex-wrap: wrap;
       text-align: left;
+    }
+
+    .post-card-reading {
+      display: inline;
+      white-space: normal;
     }
   }
 }

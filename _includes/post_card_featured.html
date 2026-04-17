@@ -41,7 +41,7 @@
           <a href="{{ '/author/' | append: author.name | relative_url }}">{{ author.display_name }}</a>
         </span>
         {% endif %}
-        <time class="post-card-date" datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%B %-d, %Y" }}</time>
+        <time class="post-card-date" datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%b %-d, %Y" }}</time>
         {% if site.data.settings.show_reading_time %}
         <span class="post-card-reading">{% include reading_time.html content=p.content %}</span>
         {% endif %}
