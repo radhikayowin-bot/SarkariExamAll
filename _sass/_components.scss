@@ -170,6 +170,27 @@
   .post-card-image-wrap {
     aspect-ratio: 16/9;
   }
+
+  .post-card-body {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .post-card-excerpt {
+    flex: 0 0 auto;
+    margin-bottom: $space-4;
+  }
+
+  .post-card-footer {
+    width: 100%;
+    margin-top: auto;
+    padding-top: $space-4;
+  }
+
+  .post-card-meta {
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
 
 // ============================================================
