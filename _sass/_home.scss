@@ -44,6 +44,11 @@
 
   .post-card {
     height: 100%;
+
+    @media (max-width: $bp-sm) {
+      height: auto;
+      min-height: 0;
+    }
   }
 
   .post-card-image-wrap {

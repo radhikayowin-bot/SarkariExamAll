@@ -191,6 +191,32 @@
     justify-content: flex-start;
     align-items: center;
   }
+
+  @media (max-width: $bp-sm) {
+    .post-card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+      height: auto;
+      min-height: 0;
+    }
+
+    .post-card-excerpt {
+      flex: 0 0 auto;
+      margin-bottom: $space-3;
+    }
+
+    .post-card-footer {
+      margin-top: $space-3;
+      padding-top: $space-3;
+    }
+
+    .post-card-meta {
+      justify-content: flex-start;
+      text-align: left;
+    }
+  }
 }
 
 // ============================================================
