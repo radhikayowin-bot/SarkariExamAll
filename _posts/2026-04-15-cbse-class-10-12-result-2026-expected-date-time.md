@@ -6,7 +6,7 @@ date: 2026-04-14
 categories: [results]
 tags: [cbse-result-2026, class-10, class-12, board-results]
 author: editorial
-image:[ https://img.etimg.com/thumb/msid-130281589,width-300,height-225,imgsize-872724,resizemode-75/cbse-class-12-result-2026.jpg](https://i.postimg.cc/BvJJLgqX/Chat-GPT-Image-Apr-17-2026-02-46-27-PM.png)
+image: https://i.postimg.cc/BvJJLgqX/Chat-GPT-Image-Apr-17-2026-02-46-27-PM.png
 image_alt: "CBSE Class 10 and 12 Result 2026 update"
 featured: false
 toc: true
@@ -15,6 +15,8 @@ toc: true
 ## Overview
 
 The **Central Board of Secondary Education (CBSE)** is expected to release the **Class 10 and Class 12 Results 2026** soon. Lakhs of students across India are eagerly waiting for the official announcement.
+
+![CBSE Result 2026](https://i.postimg.cc/BvJJLgqX/Chat-GPT-Image-Apr-17-2026-02-46-27-PM.png)
 
 Although CBSE has not confirmed the exact date and time yet, reports suggest that the results may be declared between **April and early May 2026**. Once released, students will be able to check their results online and through multiple platforms.
 
