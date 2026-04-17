@@ -3,7 +3,7 @@ layout: post
 title: "UP Scholarship Status 2026: Check PFMS Scholarship Payment Status Online"
 description: "Check UP Scholarship Status 2026 online through the PFMS portal and the official scholarship website. Learn how to track payment status, application status, expected timelines, and common PFMS messages."
 date: 2026-04-17
-categories: [scholarship]
+categories: [scholarships]
 tags: [up-scholarship-2026, pfms-status, scholarship-payment, dbt-payment]
 author: editorial
 image: https://i.postimg.cc/dtMHCj79/6d759aad-dd07-49cc-b25d-f48780fc8041.png
