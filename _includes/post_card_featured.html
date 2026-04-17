@@ -16,15 +16,17 @@
     </div>
   </a>
   <div class="post-card-body">
-    <span class="featured-label">Featured</span>
-    {% if p.categories.size > 0 %}
-    <div class="post-card-categories">
-      {% for cat in p.categories limit:1 %}
-      {% include cat_url.html cat=cat %}
-      <a href="{{ cat_url }}" class="category-badge">{{ cat | capitalize }}</a>
-      {% endfor %}
+    <div class="post-card-featured-labels" aria-label="Featured post labels">
+      <span class="featured-label featured-label--bar">Featured</span>
+      {% if p.categories.size > 0 %}
+      <div class="post-card-categories post-card-categories--featured">
+        {% for cat in p.categories limit:1 %}
+        {% include cat_url.html cat=cat %}
+        <a href="{{ cat_url }}" class="category-badge category-badge--bar">{{ cat | capitalize }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
     </div>
-    {% endif %}
 
     <h2 class="post-card-title post-card-title--lg">
       <a href="{{ p.url | relative_url }}">{{ p.title }}</a>

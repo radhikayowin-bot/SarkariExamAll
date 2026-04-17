@@ -58,6 +58,12 @@
       aspect-ratio: 16/9;
     }
   }
+
+  .post-card-body {
+    @media (max-width: $bp-md) {
+      padding: $space-4;
+    }
+  }
 }
 
 .hero-secondary {

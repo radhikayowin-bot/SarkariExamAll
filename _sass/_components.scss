@@ -51,6 +51,16 @@
   margin-bottom: $space-2;
 }
 
+.featured-label--bar,
+.category-badge--bar {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: $space-2 $space-4;
+  border-radius: $radius-sm;
+  text-align: left;
+}
+
 // ============================================================
 // Post Card
 // ============================================================
@@ -103,6 +113,18 @@
 
 .post-card-categories {
   margin-bottom: $space-3;
+}
+
+.post-card-featured-labels {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2;
+  width: 100%;
+  margin-bottom: $space-4;
+}
+
+.post-card-categories--featured {
+  margin-bottom: 0;
 }
 
 .post-card-title {
@@ -176,6 +198,14 @@
     justify-content: flex-start;
   }
 
+  .featured-label,
+  .category-badge {
+    font-size: $text-xs;
+    font-weight: $font-bold;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
   .post-card-excerpt {
     flex: 0 0 auto;
     margin-bottom: $space-4;
@@ -200,6 +230,17 @@
       align-items: stretch;
       height: auto;
       min-height: 0;
+      padding: $space-4;
+    }
+
+    .post-card-featured-labels {
+      gap: $space-2;
+      margin-bottom: $space-3;
+    }
+
+    .featured-label--bar,
+    .category-badge--bar {
+      padding: $space-2 $space-3;
     }
 
     .post-card-excerpt {
