@@ -1,10 +1,17 @@
-{% if paginator.total_pages > 1 %}
-<nav class="pagination" aria-label="Pagination">
+{% if paginator and paginator.total_pages > 1 %}
+{% assign pagination_root = '/blog/' %}
+
+<nav class="pagination" aria-label="Blog pagination">
   <ul class="pagination-list">
 
     {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        {% assign previous_href = pagination_root | relative_url %}
+      {% else %}
+        {% assign previous_href = pagination_root | append: 'page/' | append: paginator.previous_page | append: '/' | relative_url %}
+      {% endif %}
     <li class="pagination-item">
-      <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-link pagination-prev" aria-label="Previous page">
+      <a href="{{ previous_href }}" class="pagination-link pagination-prev" aria-label="Go to newer posts page {{ paginator.previous_page }}">
         &larr; Newer
       </a>
     </li>
@@ -23,18 +30,28 @@
     {% if start_page < 1 %}{% assign start_page = 1 %}{% endif %}
 
     {% for i in (start_page..end_page) %}
-    <li class="pagination-item {% if i == paginator.page %}pagination-item--active{% endif %}">
       {% if i == 1 %}
-        <a href="{{ paginator.first_page_path | default: page.url | relative_url }}" class="pagination-link" {% if i == paginator.page %}aria-current="page"{% endif %}>{{ i }}</a>
+        {% assign page_href = pagination_root | relative_url %}
       {% else %}
-        <a href="{{ paginator.page_path | replace: ':num', i | relative_url }}" class="pagination-link" {% if i == paginator.page %}aria-current="page"{% endif %}>{{ i }}</a>
+        {% assign page_href = pagination_root | append: 'page/' | append: i | append: '/' | relative_url %}
+      {% endif %}
+    <li class="pagination-item {% if i == paginator.page %}pagination-item--active{% endif %}">
+      {% if i == paginator.page %}
+        <span class="pagination-link" aria-current="page">{{ i }}</span>
+      {% else %}
+        <a href="{{ page_href }}" class="pagination-link" aria-label="Go to page {{ i }}">{{ i }}</a>
       {% endif %}
     </li>
     {% endfor %}
 
     {% if paginator.next_page %}
+      {% if paginator.next_page == 1 %}
+        {% assign next_href = pagination_root | relative_url %}
+      {% else %}
+        {% assign next_href = pagination_root | append: 'page/' | append: paginator.next_page | append: '/' | relative_url %}
+      {% endif %}
     <li class="pagination-item">
-      <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-link pagination-next" aria-label="Next page">
+      <a href="{{ next_href }}" class="pagination-link pagination-next" aria-label="Go to older posts page {{ paginator.next_page }}">
         Older &rarr;
       </a>
     </li>

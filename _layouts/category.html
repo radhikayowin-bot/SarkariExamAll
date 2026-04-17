@@ -34,6 +34,7 @@ layout: default
     {% if paginator.total_posts %}
     <p class="archive-count">{{ paginator.total_posts }} update{% if paginator.total_posts != 1 %}s{% endif %}</p>
     {% endif %}
+    <p class="archive-description">This archive groups posts in the {{ cat_name | capitalize }} category so readers can quickly find related updates without sorting through unrelated news. Open individual posts for details such as dates, documents, official links, and next steps where relevant.</p>
   </header>
 
   <!-- Ad: Top Banner Placeholder -->
@@ -49,6 +50,12 @@ layout: default
     {% include post_card.html post=post %}
     {% endfor %}
   </div>
+
+  <section class="archive-help-text" aria-label="Archive guidance">
+    <h2>How to Use This Archive</h2>
+    <p>Open the most recent posts first for time-sensitive updates, and review the description on each card to confirm whether the post covers a result, admit card, application step, or detailed guide.</p>
+  </section>
+
   {% include pagination.html %}
   {% else %}
   <p class="no-posts">No posts in this category yet.</p>

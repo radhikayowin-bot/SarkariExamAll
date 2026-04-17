@@ -3,6 +3,7 @@ layout: default
 ---
 
 {% assign tag_name = page.tag | default: page.title | remove: "Tag: " %}
+{% assign tag_slug = tag_name | slugify %}
 
 <!-- Breadcrumb Schema -->
 <script type="application/ld+json">
@@ -29,6 +30,7 @@ layout: default
     {% if paginator.total_posts %}
     <p class="archive-count">{{ paginator.total_posts }} update{% if paginator.total_posts != 1 %}s{% endif %} tagged with &ldquo;{{ tag_name }}&rdquo;</p>
     {% endif %}
+    <p class="archive-description">This tag archive brings together posts that mention {{ tag_name }} in a specific exam, result, admit card, recruitment, or guidance context. Use it to follow one recurring topic across multiple updates.</p>
   </header>
 
   <!-- Ad: Top Banner Placeholder -->
@@ -44,6 +46,15 @@ layout: default
     {% include post_card.html post=post %}
     {% endfor %}
   </div>
+
+  {% if site.categories[tag_slug] %}
+  {% include cat_url.html cat=tag_slug %}
+  <section class="archive-help-text" aria-label="Related category link">
+    <h2>Looking for the Full Category?</h2>
+    <p>If you want a broader view beyond this tag, you may also want to browse the <a href="{{ cat_url }}">{{ tag_slug | capitalize }} category archive</a>.</p>
+  </section>
+  {% endif %}
+
   {% include pagination.html %}
   {% else %}
   <p class="no-posts">No posts with this tag yet.</p>

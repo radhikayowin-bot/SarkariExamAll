@@ -29,8 +29,9 @@
       <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
     </h2>
 
-    {% if p.description or p.excerpt %}
-    <p class="post-card-excerpt">{{ p.description | default: p.excerpt | strip_html | truncatewords: 22 }}</p>
+    {% assign card_excerpt = p.description | default: p.excerpt | strip_html | normalize_whitespace %}
+    {% if card_excerpt != blank %}
+    <p class="post-card-excerpt">{{ card_excerpt | truncate: 155 }}</p>
     {% endif %}
 
     <footer class="post-card-footer">
