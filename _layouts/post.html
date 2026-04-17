@@ -172,9 +172,15 @@ layout: default
         {% endif %}
 
         {% if page.toc %}
-        <div class="toc-wrapper">
+        <section class="toc-wrapper" aria-labelledby="toc-heading">
+          <div class="toc-wrapper__inner">
+          <div class="toc-wrapper__header">
+            <p class="toc-wrapper__eyebrow">On This Page</p>
+            <h2 id="toc-heading" class="toc-wrapper__title">Table of Contents</h2>
+          </div>
           {% toc %}
-        </div>
+          </div>
+        </section>
         {% endif %}
 
         <div class="post-content prose prose--serif" itemprop="articleBody">

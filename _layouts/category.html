@@ -51,9 +51,12 @@ layout: default
     {% endfor %}
   </div>
 
-  <section class="archive-help-text" aria-label="Archive guidance">
-    <h2>How to Use This Archive</h2>
-    <p>Open the most recent posts first for time-sensitive updates, and review the description on each card to confirm whether the post covers a result, admit card, application step, or detailed guide.</p>
+  <section class="archive-help-text" aria-labelledby="archive-help-heading">
+    <div class="archive-help-text__inner">
+      <p class="archive-help-text__eyebrow">Reader Tip</p>
+      <h2 id="archive-help-heading" class="archive-help-text__title">How to Use This Archive</h2>
+      <p class="archive-help-text__body">Open the most recent posts first for time-sensitive updates, and review the description on each card to confirm whether the post covers a result, admit card, application step, or detailed guide.</p>
+    </div>
   </section>
 
   {% include pagination.html %}

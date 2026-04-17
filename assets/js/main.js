@@ -50,6 +50,33 @@
   });
 
   // ============================================================
+  // Normalize Table of Contents markup to ordered lists
+  // ============================================================
+  document.querySelectorAll('.toc-wrapper .section-nav, .toc-wrapper #toc, .toc-wrapper #markdown-toc').forEach(function (list) {
+    if (list.tagName !== 'OL') {
+      var orderedList = document.createElement('ol');
+      orderedList.className = list.className;
+      if (list.id) {
+        orderedList.id = list.id;
+      }
+      while (list.firstChild) {
+        orderedList.appendChild(list.firstChild);
+      }
+      list.parentNode.replaceChild(orderedList, list);
+      list = orderedList;
+    }
+
+    list.querySelectorAll('ul').forEach(function (nestedList) {
+      var nestedOrderedList = document.createElement('ol');
+      nestedOrderedList.className = nestedList.className;
+      while (nestedList.firstChild) {
+        nestedOrderedList.appendChild(nestedList.firstChild);
+      }
+      nestedList.parentNode.replaceChild(nestedOrderedList, nestedList);
+    });
+  });
+
+  // ============================================================
   // Smooth scroll for anchor links (respects prefers-reduced-motion)
   // ============================================================
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

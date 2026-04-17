@@ -49,9 +49,12 @@ layout: default
 
   {% if site.categories[tag_slug] %}
   {% include cat_url.html cat=tag_slug %}
-  <section class="archive-help-text" aria-label="Related category link">
-    <h2>Looking for the Full Category?</h2>
-    <p>If you want a broader view beyond this tag, you may also want to browse the <a href="{{ cat_url }}">{{ tag_slug | capitalize }} category archive</a>.</p>
+  <section class="archive-help-text" aria-labelledby="archive-help-heading">
+    <div class="archive-help-text__inner">
+      <p class="archive-help-text__eyebrow">Related Archive</p>
+      <h2 id="archive-help-heading" class="archive-help-text__title">Looking for the Full Category?</h2>
+      <p class="archive-help-text__body">If you want a broader view beyond this tag, you may also want to browse the <a href="{{ cat_url }}">{{ tag_slug | capitalize }} category archive</a>.</p>
+    </div>
   </section>
   {% endif %}
 

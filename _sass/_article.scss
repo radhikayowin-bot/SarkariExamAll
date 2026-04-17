@@ -143,49 +143,111 @@
 // ---- Table of Contents -------------------------------------
 
 .toc-wrapper {
-  background: $color-bg-alt;
-  border: 1px solid $color-border;
-  border-radius: $radius-md;
-  padding: $space-5 $space-6;
   margin: $space-8 0;
 
   @media (max-width: $bp-sm) {
+    margin: $space-6 0;
+  }
+}
+
+.toc-wrapper__inner {
+  background: linear-gradient(180deg, $color-bg-alt 0%, rgba($color-bg-alt, 0.55) 100%);
+  border: 1px solid $color-border;
+  border-radius: $radius-lg;
+  padding: $space-5 $space-6;
+  margin: $space-8 0;
+  box-shadow: $shadow-sm;
+
+  @media (max-width: $bp-sm) {
     padding: $space-4 $space-5;
+    margin: 0;
   }
+}
 
-  &::before {
-    content: "Table of Contents";
-    display: block;
-    font-size: $text-sm;
-    font-weight: $font-bold;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: $color-text;
-    margin-bottom: $space-3;
+.toc-wrapper__header {
+  margin-bottom: $space-4;
+}
+
+.toc-wrapper__eyebrow {
+  margin: 0 0 $space-2;
+  font-size: $text-xs;
+  font-weight: $font-bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: $color-accent;
+}
+
+.toc-wrapper__title {
+  margin: 0;
+  font-size: $text-xl;
+  line-height: $leading-tight;
+  color: $color-primary;
+
+  @media (max-width: $bp-sm) {
+    font-size: $text-lg;
   }
+}
 
-  #markdown-toc {
+.toc-wrapper {
+  #toc,
+  #markdown-toc,
+  .section-nav {
     list-style: decimal;
     padding-left: $space-5;
     margin: 0;
+  }
 
-    li {
-      margin-bottom: $space-2;
-      font-size: $text-sm;
-      line-height: $leading-relaxed;
+  li {
+    margin-bottom: $space-3;
+    padding-left: $space-1;
+    font-size: $text-sm;
+    line-height: $leading-relaxed;
+    color: $color-text;
+    overflow-wrap: anywhere;
 
-      a {
-        color: $color-text-muted;
-        text-decoration: none;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 
-        &:hover { color: $color-accent; }
-      }
+  a {
+    color: $color-text;
+    text-decoration: none;
+    font-weight: $font-medium;
+    display: inline;
+    text-underline-offset: 0.18em;
 
-      ul, ol {
-        list-style: lower-alpha;
-        padding-left: $space-5;
-        margin-top: $space-2;
-      }
+    &:hover,
+    &:focus-visible {
+      color: $color-accent;
+      text-decoration: underline;
+    }
+  }
+
+  ol,
+  ul {
+    margin-top: $space-3;
+    padding-left: $space-5;
+  }
+
+  ol {
+    list-style: lower-alpha;
+  }
+
+  ul {
+    list-style: decimal;
+  }
+
+  @media (max-width: $bp-sm) {
+    #toc,
+    #markdown-toc,
+    .section-nav {
+      padding-left: $space-4;
+    }
+
+    ol,
+    ul {
+      padding-left: $space-4;
     }
   }
 }

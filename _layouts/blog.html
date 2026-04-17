@@ -47,15 +47,26 @@ layout: default
   </div>
 
   {% if site.featured_categories and site.featured_categories.size > 0 %}
-  <section class="archive-topic-links" aria-label="Browse updates by category">
-    <h2>Browse by Category</h2>
-    <p>Choose a focused archive if you want faster access to one type of update.</p>
-    <ul>
+  <section class="archive-topic-links" aria-labelledby="archive-topic-links-heading">
+    <div class="archive-topic-links__inner">
+    <div class="archive-topic-links__header">
+      <p class="archive-topic-links__eyebrow">Quick Navigation</p>
+      <h2 id="archive-topic-links-heading" class="archive-topic-links__title">Browse by Category</h2>
+      <p class="archive-topic-links__intro">Choose a focused archive if you want faster access to one type of update.</p>
+    </div>
+    <ol class="archive-topic-links__list">
       {% for cat in site.featured_categories %}
       {% include cat_url.html cat=cat %}
-      <li><a href="{{ cat_url }}">{{ cat | capitalize }}</a>{% assign cat_desc = site.category_descriptions[cat] %}{% if cat_desc %} - {{ cat_desc }}{% endif %}</li>
+      <li class="archive-topic-links__item">
+        <a href="{{ cat_url }}" class="archive-topic-links__link">{{ cat | capitalize }}</a>
+        {% assign cat_desc = site.category_descriptions[cat] %}
+        {% if cat_desc %}
+        <p class="archive-topic-links__description">{{ cat_desc }}</p>
+        {% endif %}
+      </li>
       {% endfor %}
-    </ul>
+    </ol>
+    </div>
   </section>
   {% endif %}
 
