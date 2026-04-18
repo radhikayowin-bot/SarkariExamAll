@@ -6,7 +6,7 @@ date: 2026-04-14
 categories: [results]
 tags: [jac-class-11-result, jharkhand-result, board-results, class-11]
 author: editorial
-image: /assets/images/social-share.jpg
+image: https://s6.imgcdn.dev/YRjXk8.png
 image_alt: "Jharkhand Board Class 11 Result 2026 released"
 featured: false
 toc: true
