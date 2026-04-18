@@ -18,6 +18,8 @@ The CBSE DRQ Tier II Admit Card 2026 has been released for candidates appearing 
 
 An admit card is more than an entry pass. It also tells you your assigned exam date, shift, centre, and the rules you must follow on the exam day. Candidates who leave these checks to the last minute often face avoidable issues related to travel, identity proof, or reporting time.
 
+If you want a broader preparation checklist before any verification or exam-day reporting stage, this guide may also help: [How to Prepare Documents for Result, Admit Card, and Recruitment Verification]({% post_url 2026-04-18-how-to-prepare-documents-for-result-admit-card-and-recruitment-verification %}).
+
 ## Examination Schedule
 
 According to the current update, the Tier II examination is scheduled on multiple dates:
@@ -65,6 +67,17 @@ If any detail looks incorrect, contact the recruiting authority through the offi
 
 Keeping one extra printed copy can also be useful as a backup.
 
+## Before Leaving for the Exam Centre
+
+Candidates should do a final check a few hours before travel:
+
+- confirm the exact address of the centre instead of relying on memory
+- check reporting time again on the hall ticket
+- keep ID proof and admit card in the same folder
+- avoid carrying extra papers or electronic devices that are not allowed
+
+Small preparation mistakes often create more stress than the exam itself.
+
 ## Important Exam Day Instructions
 
 - reach the exam centre before the reporting time
@@ -88,6 +101,15 @@ Candidates should follow the instructions printed on the hall ticket, but a prin
 ### What if my hall ticket has a mismatch?
 
 Contact the official support channel as early as possible and avoid waiting until exam day.
+
+### What if the admit card link is not opening?
+
+Try again after some time through the official website, and make sure you are opening the correct recruitment section instead of relying on forwarded links or screenshots.
+
+## Related Reading
+
+- [How to Prepare Documents for Result, Admit Card, and Recruitment Verification]({% post_url 2026-04-18-how-to-prepare-documents-for-result-admit-card-and-recruitment-verification %})
+- [How to Read an Official Notification Before Applying for Any Exam or Job]({% post_url 2026-04-18-how-to-read-an-official-notification-before-applying %})
 
 ## Conclusion
 

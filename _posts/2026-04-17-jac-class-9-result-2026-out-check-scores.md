@@ -20,6 +20,8 @@ Class 9 results are important because they help students understand their progre
 
 Students looking for another Jharkhand board update can also read [JAC Class 11 Result 2026 Out Now: Check Jharkhand Board XI Scores at jacresults.com]({% post_url 2026-04-14-jac-class-11-result-2026-out-check-scores %}).
 
+Students who are checking the result for the first time may also find it useful to read [How to Verify Official Result Links and Avoid Fake Websites]({% post_url 2026-04-18-how-to-verify-official-result-links-and-avoid-fake-websites %}) and [Common Mistakes Students Make While Checking Results Online]({% post_url 2026-04-18-common-mistakes-students-make-while-checking-results-online %}).
+
 ## Result Highlights
 
 | Item | Details |
@@ -97,6 +99,8 @@ Checking the result calmly and using only official websites usually avoids most 
 - use the online scorecard for immediate reference only
 - contact your school if there is an error in personal details or marks
 
+Students should also compare individual subject performance carefully instead of looking only at the pass status. That gives a clearer picture of which areas need more attention before the next session.
+
 ## Frequently Asked Questions
 
 ### Is the JAC Class 9 result available now?
@@ -112,6 +116,9 @@ Students should primarily use `jacresults.com` and `jac.jharkhand.gov.in`.
 The online copy is useful for quick access, but students should still follow their school for the official record or marksheet process.
 
 ## Related Reading
+
+- [How to Verify Official Result Links and Avoid Fake Websites]({% post_url 2026-04-18-how-to-verify-official-result-links-and-avoid-fake-websites %})
+- [Common Mistakes Students Make While Checking Results Online]({% post_url 2026-04-18-common-mistakes-students-make-while-checking-results-online %})
 
 - [JAC Class 11 Result 2026 Out Now: Check Jharkhand Board XI Scores at jacresults.com]({% post_url 2026-04-14-jac-class-11-result-2026-out-check-scores %})
 - [WB Madhyamik Result 2026 Date Announced: WBBSE Class 10 Results on May 8]({% post_url 2026-04-17-wb-madhyamik-result-2026-date-announced %})

@@ -18,6 +18,11 @@ The MPBSE Class 10 Result 2026 has been announced, and students can now check th
 
 The declaration of the Class 10 result marks an important stage for students moving toward senior secondary studies. The online scorecard helps students review their performance quickly, but it should also be used carefully to verify marks, personal details, and the next academic steps.
 
+For a broader result-checking checklist, students may also find these guides useful:
+
+- [How to Verify Official Result Links and Avoid Fake Websites]({% post_url 2026-04-18-how-to-verify-official-result-links-and-avoid-fake-websites %})
+- [Common Mistakes Students Make While Checking Results Online]({% post_url 2026-04-18-common-mistakes-students-make-while-checking-results-online %})
+
 ## Official Websites to Check the Result
 
 Students can use the following official portals:
@@ -80,6 +85,8 @@ Once the result is available, students should:
 
 Students who believe there may be an evaluation issue should wait for the official board notice regarding verification, scrutiny, or revaluation. Those who do not clear one or more subjects should also track supplementary exam updates through official channels.
 
+Students should avoid applying for any correction process based only on rumor-based dates or unofficial videos. The correct revaluation or supplementary schedule should be confirmed from the board or school notice.
+
 ## Common Mistakes to Avoid
 
 - entering the wrong roll number or application details
@@ -96,6 +103,11 @@ It is useful for immediate reference, but students should still collect the offi
 ### What should I do if my marksheet details are incorrect?
 
 Report the issue through your school or the official board channel as soon as possible instead of waiting.
+
+## Related Reading
+
+- [How to Verify Official Result Links and Avoid Fake Websites]({% post_url 2026-04-18-how-to-verify-official-result-links-and-avoid-fake-websites %})
+- [Common Mistakes Students Make While Checking Results Online]({% post_url 2026-04-18-common-mistakes-students-make-while-checking-results-online %})
 
 ## Conclusion
 

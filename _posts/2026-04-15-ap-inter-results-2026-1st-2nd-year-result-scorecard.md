@@ -18,6 +18,8 @@ The AP Inter Results 2026 have been declared for both 1st year and 2nd year stud
 
 Intermediate results are important not only because they show marks, but also because they influence admissions, competitive exam planning, stream continuity, and revaluation decisions. Students should therefore focus on accuracy and next steps, not just the pass percentage headline.
 
+Students who want a broader checklist for safe result access can also read [How to Verify Official Result Links and Avoid Fake Websites]({% post_url 2026-04-18-how-to-verify-official-result-links-and-avoid-fake-websites %}) and [Common Mistakes Students Make While Checking Results Online]({% post_url 2026-04-18-common-mistakes-students-make-while-checking-results-online %}).
+
 ## Key Highlights
 
 | Item | Details |
@@ -85,6 +87,8 @@ The current update states that students generally need at least 33% marks to pas
 - track notices for revaluation or supplementary exams if needed
 - follow college or board instructions for formal marksheet collection
 
+Students planning the next academic step should also discuss subject-level performance, not just the overall total, because 1st year and 2nd year result use can differ depending on the course or admission process they are targeting.
+
 ## Common Mistakes to Avoid
 
 - checking the result without keeping the hall ticket number ready
@@ -101,6 +105,15 @@ It is useful for immediate reference, but students should also follow the offici
 ### What if the website becomes slow?
 
 Wait and try again through the official portal instead of refreshing repeatedly or switching to unreliable third-party pages.
+
+### Should students depend only on the online scorecard?
+
+No. The online scorecard is helpful for quick access, but the official marksheet and institutional verification process still matter for formal use.
+
+## Related Reading
+
+- [How to Verify Official Result Links and Avoid Fake Websites]({% post_url 2026-04-18-how-to-verify-official-result-links-and-avoid-fake-websites %})
+- [Common Mistakes Students Make While Checking Results Online]({% post_url 2026-04-18-common-mistakes-students-make-while-checking-results-online %})
 
 ## Conclusion
 

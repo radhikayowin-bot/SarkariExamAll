@@ -18,6 +18,8 @@ The India Post GDS 3rd Merit List 2026 is expected to be released soon on the of
 
 The Gramin Dak Sevak recruitment process is merit-based, and each supplementary list becomes important for candidates who were not shortlisted in the earlier rounds. The first list was released in March and the second list followed in April, so attention is now on the third merit list and the next round of document verification.
 
+Candidates who are unsure how to prepare for document-related checks can also read [How to Prepare Documents for Result, Admit Card, and Recruitment Verification]({% post_url 2026-04-18-how-to-prepare-documents-for-result-admit-card-and-recruitment-verification %}) and [How to Read an Official Notification Before Applying for Any Exam or Job]({% post_url 2026-04-18-how-to-read-an-official-notification-before-applying %}).
+
 ## Current Status of the 3rd Merit List
 
 As of now, the third merit list has not been officially announced in the content provided here. Reports suggest that it may be released toward the end of April 2026 or in May 2026, but candidates should treat that as an expectation rather than a confirmed Department of Posts schedule.
@@ -104,6 +106,8 @@ To stay prepared:
 - check the divisional office and reporting deadline carefully
 - read the official notice for any state-specific instruction
 
+Candidates should not assume that document verification is a formality. A mismatch in certificate details, category proof, or application information can create delay or rejection risks even after selection in the merit list.
+
 ## What Candidates Should Keep in Mind
 
 - the third merit list date is still not officially confirmed in this update
@@ -128,6 +132,8 @@ Selection is based on a system-generated merit list prepared from Class 10 marks
 ## Related Reading
 
 - [SSC Selection Post Phase 14 Recruitment 2026: 3003 Vacancies Announced, Apply Online at ssc.gov.in]({% post_url 2026-04-14-ssc-selection-post-phase-14-notification-2026 %})
+- [How to Prepare Documents for Result, Admit Card, and Recruitment Verification]({% post_url 2026-04-18-how-to-prepare-documents-for-result-admit-card-and-recruitment-verification %})
+- [How to Read an Official Notification Before Applying for Any Exam or Job]({% post_url 2026-04-18-how-to-read-an-official-notification-before-applying %})
 
 ## Conclusion
 
