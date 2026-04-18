@@ -6,7 +6,7 @@ date: 2026-04-17
 categories: [results]
 tags: [wb-madhyamik-result-2026, wbbse-result, class-10-result, board-exam]
 author: editorial
-image: https://i.postimg.cc/02q61TwF/40c3f8f5-0e77-4d5b-a4da-ff151fec2fa6.png
+image: /assets/images/social-share.jpg
 image_alt: "WB Madhyamik Result 2026 date announcement"
 featured: false
 toc: true

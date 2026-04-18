@@ -6,7 +6,7 @@ date: 2026-04-17
 categories: [syllabus]
 tags: [cbse-class-10-syllabus-2026-27, cbse-syllabus, class-10-exam]
 author: editorial
-image: https://i.postimg.cc/vHtkKd7Y/Chat-GPT-Image-Apr-17-2026-03-33-05-PM.png
+image: /assets/images/social-share.jpg
 image_alt: "CBSE Class 10 Syllabus 2026-27 subject-wise guide"
 featured: false
 toc: true

@@ -6,7 +6,7 @@ date: 2026-04-14
 categories: [results]
 tags: [cbse-result-2026, class-10, class-12, board-results]
 author: editorial
-image: https://i.postimg.cc/BvJJLgqX/Chat-GPT-Image-Apr-17-2026-02-46-27-PM.png
+image: /assets/images/social-share.jpg
 image_alt: "CBSE Class 10 and 12 Result 2026 update"
 featured: false
 toc: true
@@ -14,7 +14,7 @@ toc: true
 
 The CBSE Class 10 and Class 12 Result 2026 are expected to be announced soon. Students often search for an exact date and time, but the more practical approach is to prepare for the result process itself by keeping login details ready and following only official CBSE updates.
 
-![CBSE Result 2026](https://i.postimg.cc/BvJJLgqX/Chat-GPT-Image-Apr-17-2026-02-46-27-PM.png)
+![CBSE Result 2026](/assets/images/social-share.jpg)
 
 ## Overview
 

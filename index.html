@@ -97,6 +97,16 @@ pagination:
 
     <div class="homepage-main">
 
+      {% assign latest_posts = '' | split: '' %}
+      {% for post in site.posts %}
+        {% unless featured_posts contains post %}
+          {% assign latest_posts = latest_posts | push: post %}
+        {% endunless %}
+        {% if latest_posts.size == 6 %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+
       <!-- Latest Posts -->
       <section class="latest-section" aria-label="Latest updates">
         <div class="section-header">
@@ -104,7 +114,7 @@ pagination:
           <a href="{{ '/blog/' | relative_url }}" class="section-more-link" aria-label="View all updates">View all &rarr;</a>
         </div>
         <div class="posts-grid">
-          {% for post in site.posts limit:6 %}
+          {% for post in latest_posts %}
           {% include post_card.html post=post %}
           {% endfor %}
         </div>
@@ -130,7 +140,15 @@ pagination:
 <!-- ============================================================
      Trending / Important Updates
      ============================================================ -->
-{% assign trending_posts = site.posts | limit: 8 %}
+{% assign trending_posts = '' | split: '' %}
+{% for post in site.posts %}
+  {% unless featured_posts contains post %}
+    {% assign trending_posts = trending_posts | push: post %}
+  {% endunless %}
+  {% if trending_posts.size == 8 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
 {% if trending_posts.size > 0 %}
 <section class="trending-section" aria-label="Trending updates">
   <div class="container">

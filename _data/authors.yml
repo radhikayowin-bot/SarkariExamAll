@@ -1,19 +1,19 @@
 editorial:
   name: "editorial"
   display_name: "SarkariExamAll Editorial"
-  bio: "The editorial team at SarkariExamAll covers government jobs, admit cards, results, answer keys, admissions, and scholarships."
+  bio: "SarkariExamAll Editorial reviews official notices, exam updates, scholarship information, and recruitment announcements, then publishes reader-focused summaries with practical next-step guidance."
   avatar: "/assets/images/logo.png"
   role: "Editorial Team"
   email: "contact@sarkariexamall.com"
   website: "https://www.sarkariexamall.com"
   social:
-    twitter: "itisunique_x"
-    linkedin: "itisuniqueofficial"
+    twitter: ""
+    linkedin: ""
 
 sarah_chen:
   name: "sarah_chen"
   display_name: "Sarah Chen"
-  bio: "Sarah reviews official notifications and writes simplified summaries for competitive exam and recruitment updates."
+  bio: "Sarah focuses on exam notices, board updates, and recruitment summaries, with an emphasis on clarity, official-source cross-checking, and deadline-focused guidance."
   avatar: "/assets/images/logo.png"
   role: "Exam Updates Editor"
   email: ""
@@ -25,7 +25,7 @@ sarah_chen:
 marcus_reed:
   name: "marcus_reed"
   display_name: "Marcus Reed"
-  bio: "Marcus tracks admit card, answer key, and board-related notices to help users find important updates quickly."
+  bio: "Marcus tracks admit cards, answer keys, and result-related notices, and turns complex official instructions into easier step-by-step summaries for applicants."
   avatar: "/assets/images/logo.png"
   role: "Notification Writer"
   email: ""
@@ -37,7 +37,7 @@ marcus_reed:
 priya_sharma:
   name: "priya_sharma"
   display_name: "Priya Sharma"
-  bio: "Priya focuses on admissions, university forms, and major recruitment notices with clear date-wise summaries."
+  bio: "Priya covers admission processes, university forms, and education-related notices, with special attention to deadlines, required documents, and application workflow."
   avatar: "/assets/images/logo.png"
   role: "Admission Editor"
   email: ""
@@ -49,7 +49,7 @@ priya_sharma:
 james_okafor:
   name: "james_okafor"
   display_name: "James Okafor"
-  bio: "James covers syllabus updates, scholarship notices, and exam pattern changes for students and job seekers."
+  bio: "James covers syllabus changes, scholarship updates, and exam-pattern guidance, with a focus on practical study planning and user-friendly explanations."
   avatar: "/assets/images/logo.png"
   role: "Education Writer"
   email: ""

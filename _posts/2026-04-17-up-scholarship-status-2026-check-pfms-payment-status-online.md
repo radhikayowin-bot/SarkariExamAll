@@ -6,7 +6,7 @@ date: 2026-04-17
 categories: [scholarships]
 tags: [up-scholarship-2026, pfms-status, scholarship-payment, dbt-payment]
 author: editorial
-image: https://i.postimg.cc/dtMHCj79/6d759aad-dd07-49cc-b25d-f48780fc8041.png
+image: /assets/images/social-share.jpg
 image_alt: "UP Scholarship Status 2026 PFMS payment tracking"
 featured: false
 toc: true

@@ -6,7 +6,7 @@ date: 2026-04-15
 categories: [answer-key]
 tags: [jee-main-2026, nta-answer-key, response-sheet, engineering-exam]
 author: editorial
-image: https://sainikschoolsambalpur.in/wp-content/uploads/2026/04/jee-main-answer-key.jpg
+image: /assets/images/social-share.jpg
 image_alt: "JEE Main 2026 answer key session 2"
 featured: false
 toc: true

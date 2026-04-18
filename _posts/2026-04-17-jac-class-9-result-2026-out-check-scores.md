@@ -6,7 +6,7 @@ date: 2026-04-17
 categories: [results]
 tags: [jac-class-9-result, jharkhand-result, board-results, class-9]
 author: editorial
-image: https://i.postimg.cc/FsrQ5pTc/Chat-GPT-Image-Apr-17-2026-11-43-11-PM.png
+image: /assets/images/social-share.jpg
 image_alt: "JAC Class 9 Result 2026 released"
 featured: false
 toc: true

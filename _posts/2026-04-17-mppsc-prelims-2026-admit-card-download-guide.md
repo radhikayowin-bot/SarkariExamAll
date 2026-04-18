@@ -6,7 +6,7 @@ date: 2026-04-16
 categories: [admit-card]
 tags: [mppsc-2026, prelims-admit-card, sse-exam, state-service]
 author: editorial
-image: https://i.postimg.cc/VkDjpKHc/Chat-GPT-Image-Apr-17-2026-02-27-04-PM.png
+image: /assets/images/social-share.jpg
 image_alt: "MPPSC Prelims Admit Card 2026 download"
 featured: false
 toc: true

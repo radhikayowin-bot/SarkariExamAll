@@ -6,7 +6,7 @@ date: 2026-04-15
 categories: [results]
 tags: [mpbse-result-2026, mp-board-class-10, board-result]
 author: editorial
-image: https://sainikschoolsambalpur.in/wp-content/uploads/2026/04/mp-board-10th-result.jpg
+image: /assets/images/social-share.jpg
 image_alt: "MP Board 10th Result 2026 update"
 featured: false
 toc: true

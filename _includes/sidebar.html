@@ -41,7 +41,8 @@
     {% include cat_url.html cat=cat %}
     <li>
       <a href="{{ cat_url }}">
-        {{ cat | capitalize }}
+        {% assign cat_label = cat | replace: '-', ' ' %}
+        {{ cat_label | capitalize }}
         <span class="sidebar-category-count">{{ cat_posts.size }}</span>
       </a>
     </li>

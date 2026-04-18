@@ -6,7 +6,7 @@ date: 2026-04-17
 categories: [results]
 tags: [india-post-gds-2026, gds-3rd-merit-list, india-post-result, recruitment-result]
 author: editorial
-image: https://i.postimg.cc/BnHMn9YL/Chat-GPT-Image-Apr-17-2026-11-33-29-PM.png
+image: /assets/images/social-share.jpg
 image_alt: "India Post GDS 3rd Merit List 2026 update"
 featured: false
 toc: true

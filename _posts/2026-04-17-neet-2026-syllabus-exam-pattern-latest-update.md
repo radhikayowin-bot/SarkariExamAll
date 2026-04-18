@@ -6,7 +6,7 @@ date: 2026-04-17
 categories: [syllabus]
 tags: [neet-2026-syllabus, neet-exam-pattern, neet-preparation]
 author: editorial
-image: https://i.postimg.cc/9F3KQYtS/Chat-GPT-Image-Apr-17-2026-04-19-22-PM.png
+image: /assets/images/social-share.jpg
 image_alt: "NEET 2026 syllabus and preparation guide"
 featured: false
 toc: true

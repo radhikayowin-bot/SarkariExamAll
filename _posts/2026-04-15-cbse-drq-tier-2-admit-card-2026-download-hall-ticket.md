@@ -6,7 +6,7 @@ date: 2026-04-15
 categories: [admit-card]
 tags: [cbse-drq-2026, tier-2-admit-card, cbse-recruitment]
 author: editorial
-image: https://static-bestcolleges.tosshub.com/2026/News/lUp5i9Px7i7oiYBvJzWgnV1nOi5WYfm6O38J1vkF.png
+image: /assets/images/social-share.jpg
 image_alt: "CBSE DRQ Tier II Admit Card 2026 download"
 featured: false
 toc: true

@@ -22,10 +22,10 @@ organization:
 # Social
 # ============================================================
 social:
-  twitter: "itisunique_x"
-  facebook: "itisuniqueofficial"
-  instagram: "itisuniqueofficial"
-  linkedin: "itisuniqueofficial"
+  twitter: ""
+  facebook: ""
+  instagram: ""
+  linkedin: ""
   youtube: ""
   rss: "/feed.xml"
 
@@ -105,7 +105,7 @@ jekyll-archives:
 # SEO Tag
 # ============================================================
 twitter:
-  username: "itisunique_x"
+  username: ""
   card: summary_large_image
 
 logo: "/assets/images/logo.png"

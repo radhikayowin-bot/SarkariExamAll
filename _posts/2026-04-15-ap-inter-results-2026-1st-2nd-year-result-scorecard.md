@@ -6,7 +6,7 @@ date: 2026-04-15
 categories: [results]
 tags: [ap-inter-results-2026, bieap-result, class-11, class-12]
 author: editorial
-image: https://c.ndtvimg.com/2026-04/acdfitts_asd_625x300_15_April_26.jpeg
+image: /assets/images/social-share.jpg
 image_alt: "AP Inter 1st and 2nd Year Results 2026 announced"
 featured: false
 toc: true
