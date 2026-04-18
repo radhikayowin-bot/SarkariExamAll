@@ -6,7 +6,7 @@ date: 2026-04-14
 categories: [latest-jobs]
 tags: [ssc-selection-post-2026, phase-14, ssc-jobs, govt-jobs]
 author: editorial
-image: /assets/images/social-share.jpg
+image: https://s6.imgcdn.dev/YRjJ4H.png
 image_alt: "SSC Phase 14 Recruitment 2026 Notification"
 featured: false
 toc: true
