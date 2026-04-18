@@ -35,10 +35,12 @@ footer_col2:
       url: "/about/"
     - title: "Contact"
       url: "/contact/"
+    - title: "Editorial Policy"
+      url: "/editorial-policy/"
+    - title: "Corrections Policy"
+      url: "/corrections-policy/"
     - title: "Blog"
       url: "/blog/"
-    - title: "Scholarships"
-      url: "/category/scholarships/"
 
 footer_col3:
   title: "Legal"
