@@ -6,7 +6,7 @@ date: 2026-04-14
 categories: [results]
 tags: [cbse-result, class-10-result, board-exam, education-news]
 author: editorial
-image: /assets/images/social-share.jpg
+image: https://i.ibb.co/4RmRh2Gw/00d0c745-f21a-424f-9a7a-0de746f04644.png
 image_alt: "CBSE Class 10 Result 2026 update"
 featured: false
 toc: true
