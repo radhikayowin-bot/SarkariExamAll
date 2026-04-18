@@ -66,6 +66,13 @@ If you notice an issue, you can review our policies here:
 
 - [Editorial Policy](/editorial-policy/)
 - [Corrections Policy](/corrections-policy/)
+- [Source Policy](/source-policy/)
+
+## Editorial Contact
+
+You can also learn more about the site editorial role here:
+
+- [Site Editor](/site-editor/)
 
 ## Contact Us
 

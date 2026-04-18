@@ -35,6 +35,8 @@ footer_col2:
       url: "/about/"
     - title: "Contact"
       url: "/contact/"
+    - title: "Site Editor"
+      url: "/site-editor/"
     - title: "Editorial Policy"
       url: "/editorial-policy/"
     - title: "Corrections Policy"
@@ -47,6 +49,8 @@ footer_col3:
   links:
     - title: "Privacy Policy"
       url: "/privacy-policy/"
+    - title: "Source Policy"
+      url: "/source-policy/"
     - title: "Terms & Conditions"
       url: "/terms/"
     - title: "Disclaimer"
