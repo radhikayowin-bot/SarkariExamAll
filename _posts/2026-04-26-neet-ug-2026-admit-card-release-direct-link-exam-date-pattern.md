@@ -6,7 +6,7 @@ date: 2026-04-26
 categories: [admit-card]
 tags: [neet-ug-2026, neet-admit-card, nta, medical-exam, entrance-exam]
 author: editorial
-image: https://i.postimg.cc/9F3KQYtS/Chat-GPT-Image-Apr-17-2026-04-19-22-PM.png
+image: https://i.postimg.cc/Vk3x6KyD/Chat-GPT-Image-Apr-26-2026-05-21-38-PM.png
 image_alt: "NEET UG 2026 admit card download update"
 featured: false
 toc: true
