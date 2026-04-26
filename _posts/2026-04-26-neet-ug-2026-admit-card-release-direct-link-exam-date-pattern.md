@@ -2,7 +2,7 @@
 layout: post
 title: "NEET UG 2026 Admit Card Releasing Soon: Direct Link, Exam Date, Pattern & Download Steps"
 description: "NEET UG 2026 admit card expected to release soon at neet.nta.nic.in. Check exam date, timing, download steps, exam pattern, and important instructions for candidates."
-date: 2026-04-26
+date: 2026-04-26 10:00:00 +0530
 categories: [admit-card]
 tags: [neet-ug-2026, neet-admit-card, nta, medical-exam, entrance-exam]
 author: editorial
